@@ -12,4 +12,4 @@ const WorkspaceSchema = new mongoose.Schema({
   date_Created: { type: Date, required: true },
 });
 
-module.exports = mongoose.model("WorkSpace", WorkspaceSchema);
+module.exports = mongoose.model("Workspace", WorkspaceSchema);
