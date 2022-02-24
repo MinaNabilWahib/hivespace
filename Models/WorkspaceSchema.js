@@ -5,8 +5,8 @@ const WorkspaceSchema = new mongoose.Schema({
   admin: { type: mongoose.Types.ObjectId, ref: "User", required: true },
   date_created: { type: Date, required: true },
   description: { type: String, maxlength: 200 },
-  channels: { type: [mongoose.Types.ObjectId], ref: "Channel", required: true },
-  members: { type: [mongoose.Types.ObjectId], ref: "User", required: true },
+  channels: [{ type: mongoose.Types.ObjectId, ref: "Channel", required: true }],
+  members: [{ type: mongoose.Types.ObjectId, ref: "User", required: true }],
 });
 
 module.exports = mongoose.model("WorkSpace", WorkspaceSchema);
