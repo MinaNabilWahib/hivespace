@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "lint": "npx prettier --check \"server/**/*.{js,jsx,ts,tsx}\"",
+    "lint-fix": "npx prettier --write \"server/**/*.{js,jsx,ts,tsx}\""
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,10 @@
     "eslint": "^8.9.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.3",
-    "morgan": "^1.10.0",
-    "prettier": "^2.5.1"
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.4.0",
+    "prettier": "2.5.1"
   }
 }
