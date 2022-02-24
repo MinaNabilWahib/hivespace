@@ -14,3 +14,6 @@ app.listen(process.env.PORT || 8080, () => {
     console.log("I am live and listening...");
     // console.log(process.env.NODE_MODE);
 });
+
+
+//todo middlewares 
