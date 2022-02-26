@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
   _id: mongoose.Types.ObjectId,
-  firstName: {
+  first_name: {
     type: String,
     trim: true,
     required: true,
@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
     minLength: [3, 'Minimum length is 3 characters'],
     maxLength: [20, 'Maximum Length is 20 characters'],
   },
-  lastName: {
+  last_name: {
     type: String,
     trim: true,
     required: true,
@@ -24,10 +24,10 @@ const userSchema = new mongoose.Schema({
     required: [true, 'Your E-Mail is Required !!'],
     match: [/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/, 'Email Syntax is wrong'],
   },
-  passwordHash: {
+  password_hash: {
     type: String,
   },
-  phoneNumber: Number,
+  phone_number: Number,
   country: String,
   verified: {
     type: Boolean,
@@ -44,11 +44,11 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ['online', 'offline'],
   },
-  workSpace: {
-    type: mongoose.Types.ObjectId,
+  workspaces: {
+    type: [mongoose.Types.ObjectId],
     ref: 'Workspace',
   },
-  date_Created: {
+  date_created: {
     type: Date,
     default: Date.now,
   },

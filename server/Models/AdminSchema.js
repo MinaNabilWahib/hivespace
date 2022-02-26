@@ -6,7 +6,7 @@ const AdminSchema = new mongoose.Schema({
   password: { type: String, requird: true },
   workspaces: [{ type: mongoose.Types.ObjectId, ref: 'Workspace', required: true }],
   users: [{ type: mongoose.Types.ObjectId, ref: 'User', required: true }],
-  date_Created: { type: Date, required: true },
+  date_created: { type: Date, required: true },
   offices: [{ type: mongoose.Types.ObjectId, ref: 'Office', required: true }],
 })
 
