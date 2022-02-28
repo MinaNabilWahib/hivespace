@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "lint": "prettier --check \"server/**/*.{js,ts}\"",
-    "lint-fix": "prettier --write \"server/**/*.{js,ts}\""
+    "start": "nodemon \"server/server.js\"",
+    "lint": "prettier --check \"server/**/*.js\"",
+    "lint-fix": "prettier --write \"server/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -30,12 +30,9 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "nodemon": "^2.0.15",
-    "prettier": "2.5.1",
-    "typescript": "^4.5.5"
+    "prettier": "2.5.1"
   }
 }
