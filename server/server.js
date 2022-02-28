@@ -25,7 +25,7 @@ mongoose
     console.log(process.env.NODE_MODE)
   })
   .catch(err => {
-    console.log('database failed')
+    console.log(err + 'database failed')
   })
 
 //Middle Wares
@@ -53,7 +53,7 @@ app.use((req, res) => {
 })
 
 //Error handling middleware that will catch all system Errors
-app.use((err, req, res, nxt) => {
+app.use((err, req, res) => {
   let status = err.status || 500
   res.status(status).json({ Error: err + ' ' })
 })
