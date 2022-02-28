@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const { body, param, query } = require('express-validator')
-const controller = require('../controllers/workSpaceController')
+const { body } = require('express-validator')
+const controller = require('../Controllers/workSpaceController')
 
 router
   .route('/workspace')
