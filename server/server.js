@@ -1,16 +1,56 @@
-const express = require('express')
-// const morgan = require('morgan');
-// const cors = require("cors");
-// const body_parser = require("body-parser");
-// const mongoose = require("mongoose");
+require("dotenv").config();
+const express = require("express");
+const helmet = require("helmet");
+const morgan = require('morgan');
+const body_parser = require("body-parser");
+const connectToDb = require("./Config/db");
+const path = require("path");
+const authRouter = require('./Routers/authRouter');
 
 //create server
-const app = express()
+const app = express();
 
-//listen on port number
-app.listen(process.env.PORT || 8080, () => {
-  console.log('I am live and listening...')
-  // console.log(process.env.NODE_MODE);
+//secure headers
+app.use(helmet());
+//use morgan
+app.use(morgan(':method :url :status :http-version :response-time '));
+
+// allow cross origin
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET,POST,DELETE,PUT,OPTIONS");
+  res.header("Access-Control-Allow-Headers", "Content-Type,Authorization")
+  next();
 })
 
-//todo middlewares
+//image upload
+app.use("/media", express.static(path.join(__dirname, "Media")));
+
+// body parser
+app.use(body_parser.json());
+app.use(body_parser.urlencoded({ extended: true }));
+
+//listening to port 8000
+const port = process.env.PORT || 8000;
+app.listen(port, async () => {
+  await connectToDb();
+  console.log(`server running on ${port}`)
+});
+
+//put routes
+app.use(authRouter);
+
+//Not found MW
+app.use((req, res) => {
+  res.status(404).json({ data: "Not Found" });
+})
+
+//Error MW
+app.use((error, req, res, next) => {
+  try {
+    let status = error.status || 500;
+    res.status(status).json({ Error: `${error}` });
+  } catch (error) {
+    next(error)
+  }
+})
