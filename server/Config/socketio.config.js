@@ -1,4 +1,5 @@
 const { userJoin, getCurrentUser, userLeave, formatMessage } = require('../Utils/socketio.utils')
+//TODO::
 // const { getMessagesDB, saveMessageDB } = require("../Utils/mongo.utils")
 
 //roomId = channel._id --> from db
@@ -8,6 +9,8 @@ class Connection {
   constructor(io, socket) {
     this.socket = socket
     this.io = io
+
+    console.log(`Socket ${this.socket.id} Connected`)
 
     socket.on('joinRoom', connectionInfo => this.joinRoom(connectionInfo))
     socket.on('message', text => this.handleMessage(text))
