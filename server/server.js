@@ -10,8 +10,19 @@ const socketioConfig = require('./Config/socketio.config')
 //create server
 const app = express()
 const server = http.createServer(app)
-const io = socketio(server)
+const io = socketio(server, {
+  cors: {
+    origin: '*',
+  },
+})
 socketioConfig(io)
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Methods', 'GET,POST,DELETE,PUT,OPTIONS')
+  res.header('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+  next()
+})
 
 //listen on port number
 server.listen(process.env.PORT || 8080, () => {

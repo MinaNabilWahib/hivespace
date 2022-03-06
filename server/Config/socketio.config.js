@@ -10,7 +10,9 @@ class Connection {
     this.socket = socket
     this.io = io
 
+    //Check
     console.log(`Socket ${this.socket.id} Connected`)
+    socket.emit('message', 'Connection Successful')
 
     socket.on('joinRoom', connectionInfo => this.joinRoom(connectionInfo))
     socket.on('message', text => this.handleMessage(text))
@@ -24,6 +26,8 @@ class Connection {
   joinRoom({ userId, userName, roomId }) {
     const user = userJoin(this.socket.id, userId, userName, roomId)
     this.socket.join(user.room)
+    console.log(`user ${userName} in room ${roomId}`)
+    console.log(user)
   }
 
   sendMessage(room, message) {
@@ -31,6 +35,8 @@ class Connection {
   }
 
   handleMessage(text) {
+    console.log(text)
+
     const user = getCurrentUser(this.socket.id)
     const message = formatMessage(user.userId, user.username, text)
 
