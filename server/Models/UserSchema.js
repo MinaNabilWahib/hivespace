@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt')
 
 const userSchema = new mongoose.Schema({
   _id: mongoose.Types.ObjectId,
@@ -53,53 +53,59 @@ const userSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-});
+})
 
 //virtual full name [get,set]
-userSchema.virtual('fullName')
+userSchema
+  .virtual('fullName')
   .get(function () {
-    return this.firstName + ' ' + this.lastName;
+    return this.firstName + ' ' + this.lastName
   })
   .set(function (value) {
-    this.firstName = value.substr(0, value.indexOf(' '));
-    this.lastName = value.substr(value.indexOf(' ') + 1);
-  });
+    this.firstName = value.substr(0, value.indexOf(' '))
+    this.lastName = value.substr(value.indexOf(' ') + 1)
+  })
 
 //If change password
-userSchema.virtual('changePassword')
+userSchema
+  .virtual('changePassword')
   .get(function () {
-    return this._changePassword;
+    return this._changePassword
   })
   .set(function (value) {
-    this._changePassword = value;
-  });
+    this._changePassword = value
+  })
 
 //virtual password
-userSchema.virtual('password')
+userSchema
+  .virtual('password')
   .get(function () {
-    return this._password;
+    return this._password
   })
   .set(function (value) {
-    this._password = value;
-  });
+    this._password = value
+  })
 
 //virtual password confirm
-userSchema.virtual('passwordConfirm')
+userSchema
+  .virtual('passwordConfirm')
   .get(function () {
-    return this._passwordConfirm;
+    return this._passwordConfirm
   })
   .set(function (value) {
-    this._passwordConfirm = value;
-  });
+    this._passwordConfirm = value
+  })
 
 //validate password
 const handlePassErrors = (password, passwordConfirm) => {
   if (password && passwordConfirm) {
     if (!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/)) {
-      throw new Error('Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.')
+      throw new Error(
+        'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.',
+      )
     }
     if (password !== passwordConfirm) {
-      throw new Error('Two Passwords doesn\'t Match.');
+      throw new Error("Two Passwords doesn't Match.")
     }
   } else {
     throw new Error('Two passwords fields required')
@@ -110,11 +116,10 @@ const handlePassErrors = (password, passwordConfirm) => {
 userSchema.pre('save', async function (next) {
   try {
     if (this._changePassword || this.isNew) {
-      handlePassErrors(this._password, this._passwordConfirm);
-      let salt = await bcrypt.genSalt(10);
-      this.password_hash = await bcrypt.hash(this._password, salt);
+      handlePassErrors(this._password, this._passwordConfirm)
+      let salt = await bcrypt.genSalt(10)
+      this.password_hash = await bcrypt.hash(this._password, salt)
     }
-
   } catch (error) {
     next(error)
   }
@@ -122,9 +127,9 @@ userSchema.pre('save', async function (next) {
 
 //compare password
 userSchema.methods.comparePassword = async function (password) {
-  const match = await bcrypt.compare(password, this.password_hash);
-  if (!match) return false;
-  return true;
+  const match = await bcrypt.compare(password, this.password_hash)
+  if (!match) return false
+  return true
 }
 
 userSchema.methods.userData = function () {
@@ -137,10 +142,9 @@ userSchema.methods.userData = function () {
     country: this.country,
     image: this.image,
     verified: this.verified,
-    date_created: this.createAt
+    date_created: this.createAt,
   }
 }
-
 
 const User = mongoose.model('User', userSchema)
 
