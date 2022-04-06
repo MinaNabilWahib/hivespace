@@ -8,6 +8,9 @@ const connectToDb = require('./Config/db')
 const path = require('path')
 const authRouter = require('./Routers/authRouter')
 
+//router variables
+const workspaceRouter = require('./routers/workSpaceRoute')
+
 //create server
 const app = express()
 //https
