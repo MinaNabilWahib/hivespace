@@ -7,6 +7,8 @@ const body_parser = require('body-parser')
 const connectToDb = require('./Config/db')
 const path = require('path')
 const authRouter = require('./Routers/authRouter')
+const socketio = require('socket.io')
+const socketioConfig = require('./Config/socketio.config')
 
 //router variables
 const workspaceRouter = require('./routers/workSpaceRoute')
@@ -19,6 +21,12 @@ const https = require('https')
 app.use(helmet())
 //use morgan
 app.use(morgan(':method :url :status :http-version :response-time '))
+const io = socketio(server, {
+  cors: {
+  },
+    origin: '*',
+})
+socketioConfig(io)
 
 // allow cross origin
 app.use((req, res, next) => {
