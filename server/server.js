@@ -11,7 +11,7 @@ const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
 
 //router variables
-const workspaceRouter = require('./routers/workSpaceRoute')
+// const workspaceRouter = require('./Routers/workSpaceRoute')
 
 //create server
 const app = express()
@@ -21,11 +21,6 @@ const https = require('https')
 app.use(helmet())
 //use morgan
 app.use(morgan(':method :url :status :http-version :response-time '))
-const io = socketio(server, {
-  cors: {},
-  origin: '*',
-})
-socketioConfig(io)
 
 // allow cross origin
 app.use((req, res, next) => {
@@ -45,7 +40,7 @@ app.use(body_parser.urlencoded({ extended: true }))
 //listening to port 8000
 const port = process.env.PORT || 8000
 //create server with https
-https
+const server = https
   .createServer(
     {
       key: fs.readFileSync('key.pem'),
@@ -61,6 +56,12 @@ https
       console.log(error)
     }
   })
+
+const io = socketio(server, {
+  cors: {},
+  origin: '*',
+})
+socketioConfig(io)
 
 //put routes
 app.use(authRouter)
