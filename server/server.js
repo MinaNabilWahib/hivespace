@@ -34,10 +34,7 @@ app.use(body_parser.urlencoded({ extended: true }))
 
 //listening to port 8000
 const port = process.env.PORT || 8000
-// app.listen(port, async () => {
-//   await connectToDb();
-//   console.log(`server running on ${port}`)
-// });
+//create server with https
 https
   .createServer(
     {
