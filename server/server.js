@@ -22,9 +22,8 @@ app.use(helmet())
 //use morgan
 app.use(morgan(':method :url :status :http-version :response-time '))
 const io = socketio(server, {
-  cors: {
-  },
-    origin: '*',
+  cors: {},
+  origin: '*',
 })
 socketioConfig(io)
 
