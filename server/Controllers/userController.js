@@ -1,8 +1,9 @@
-const User = require('.././server/Models/UserSchema.js')
+const User = require('../Models/UserSchema')
 
 // here is the get function
 exports.getUser = (request, response, next) => {
-  const id = request.User._id
+  // console.log(request)
+  const id = request.body.User._id
   User.findOne({ _id: id })
     .then(data => {
       response.status(200).json({ message: 'user is here', data: data })

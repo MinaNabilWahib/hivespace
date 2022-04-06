@@ -17,6 +17,7 @@ const socketioConfig = require('./Config/socketio.config')
 const app = express()
 //https
 const https = require('https')
+const UserRouter = require('./Routers/userRouter')
 //secure headers
 app.use(helmet())
 //use morgan
@@ -65,6 +66,7 @@ socketioConfig(io)
 
 //put routes
 app.use(authRouter)
+app.use(UserRouter)
 
 //Not found MW
 app.use((req, res) => {
