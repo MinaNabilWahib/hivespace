@@ -1,5 +1,6 @@
 const { body } = require('express-validator')
 const User = require('../Models/UserSchema')
+const { generateError } = require('../Utils/handleErrors.utils')
 const { validateCountryPhone } = require('./userDataValidation')
 
 exports.loginValidation = [
@@ -13,7 +14,7 @@ exports.loginValidation = [
       const { email } = req.body
       const user = await User.findOne({ email })
       if (!user) {
-        throw new Error('Invalid email')
+        generateError(400, 'Invalid email')
       }
       req.body.user = user
       return true
@@ -59,7 +60,7 @@ exports.registerValidation = [
       const { email } = req.body
       const user = await User.findOne({ email })
       if (user) {
-        throw new Error('email is already exists')
+        generateError(400, 'email is already exists')
       }
       return true
     }),
@@ -78,7 +79,7 @@ exports.registerValidation = [
     .custom((value, { req }) => {
       const { password } = req.body
       if (password !== value) {
-        throw new Error("Two Passwords doesn't Match.")
+        generateError(400, "Two Passwords doesn't Match.")
       }
       return true
     }),

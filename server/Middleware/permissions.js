@@ -4,7 +4,6 @@ const { ObjectId } = require('mongoose').Types;
 
 exports.validateToken = (req, res, next) => {
     try {
-        console.log('test');
         if (!req.headers.authorization) generateError(401, "Invalid Token")
         const user = jwt.verify(
             req.headers.authorization.split(" ")[1],

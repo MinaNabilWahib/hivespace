@@ -25,6 +25,3 @@ const sendEmail = async (email, subject, html) => {
 };
 
 module.exports = sendEmail;
-/*`<p>Hello,</p>
-            <p>A password reset was requested for this email address ${email}. If you requested this reset, click the link below to reset your password:</p>
-            <p><a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Reset Your Password</a></p>`*/
