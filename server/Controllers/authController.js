@@ -28,6 +28,20 @@ exports.register_post = async (req, res, next) => {
   }
 } //registration for users
 
+exports.login_post = async (req, res, next) => {
+  try {
+    const { user, password } = req.body;
+    if (!user.verified) {
+      generateError(400, "Your account not verified , please verify it")
+    }
+    if (!(await user.comparePassword(password))) generateError(403, "Invalid Password")
+    const token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: "3d" });
+    res.status(201).json({ status: "login successful", data: user.userData(), token })
+
+  } catch (error) {
+    next(error)
+  }
+}//user login
 
 exports.sendVerificationEmail = async (req, res, next) => {
   try {
@@ -43,6 +57,7 @@ exports.sendVerificationEmail = async (req, res, next) => {
     const html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
     <p>E-mail verification was requested for this email address ${user.email}. If you requested this verification, click the link below :</p>
     <p>
+    <p style="color:red;">This link is expired with in 24 hrs</p>
       <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Verify Your Email</a>
     </p>`
     await sendEmail(user.email, "Verify Email", html);
@@ -63,6 +78,46 @@ exports.emailVerify = async (req, res, next) => {
   }
 }//verify email on link sent
 
+exports.sendResetPassword = async (req, res, next) => {
+  try {
+    const infoHash = {};
+    const user = req.user;
+    infoHash.user = user;
+    infoHash.id = user._id;
+    const key = eval(process.env.reset_key);
+    const token = jwt.sign(infoHash, key, { expiresIn: "1h" });
+    const link = `${process.env.BASE_URL}/password/reset/${user._id}/${token}`;
+    const html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
+      <p>A password reset was requested for this email address ${user.email}. If you requested this reset, click the link below to reset your password:</p>
+      <p>
+      <p style="color:red;">This link is expired within 1 hr</p>
+        <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Reset Your Password</a>
+      </p>` ;
+    await sendEmail(user.email, "Reset Password", html);
+    res.status(201).json({ data: "password rest successful ,An Email sent to your account please verify", token });
+  } catch (error) {
+    next(error)
+  }
+} // send mail for reset password
+
+exports.passVerify = async (req, res, next) => {
+  try {
+    const key = process.env.reset_key;
+    const { password, passwordConfirm } = req.body;
+    const user = await userVerify(req, key);
+    if (await user.comparePassword(password)) generateError(403, "you already entered the old password ,please enter the new one or return to login page")
+    user.changePassword = true;
+    Object.assign(user,
+      password && { password },
+      password && { passwordConfirm },
+    );
+    await user.save();
+    res.status(201).json({ status: "password changed successfully" })
+  } catch (error) {
+    next(error);
+  }
+} // reset password
+
 const userVerify = async (req, key) => {
   const user = await User.findById(req.params.id);
   if (!user) { generateError(400, "invalid link") }
@@ -70,4 +125,3 @@ const userVerify = async (req, key) => {
   if (!token) { generateError(400, "invalid link") }
   return user;
 }//token and user verify
-
