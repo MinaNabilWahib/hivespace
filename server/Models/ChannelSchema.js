@@ -8,7 +8,7 @@ const CommentSchema = new mongoose.Schema({
 })
 
 //Schema of cards that are embedded inside Lists
-const CardSchema = new mongoose.Schrma({
+const CardSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
   description: { type: String, maxlength: 200 },
   creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
