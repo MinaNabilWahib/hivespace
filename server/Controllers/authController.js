@@ -8,7 +8,7 @@ exports.register_post = async (req, res, next) => {
     //get data from body
     const { first_name, last_name, email, password, passwordConfirm, country, phone_number } = req.body
     let user = {}
-    console.log(phone_number, req.phoneNumber + '');
+    console.log(phone_number, req.phoneNumber + '')
     user = User({
       first_name,
       last_name,
@@ -20,9 +20,9 @@ exports.register_post = async (req, res, next) => {
       image: '',
     })
     //save data
-    await user.save();
-    req.user = user.userData();
-    next();
+    await user.save()
+    req.user = user.userData()
+    next()
   } catch (error) {
     next(error)
   }
@@ -30,29 +30,28 @@ exports.register_post = async (req, res, next) => {
 
 exports.login_post = async (req, res, next) => {
   try {
-    const { user, password } = req.body;
+    const { user, password } = req.body
     if (!user.verified) {
-      generateError(400, "Your account not verified , please verify it")
+      generateError(400, 'Your account not verified , please verify it')
     }
-    if (!(await user.comparePassword(password))) generateError(403, "Invalid Password")
-    const token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: "3d" });
-    res.status(201).json({ status: "login successful", data: user.userData(), token })
-
+    if (!(await user.comparePassword(password))) generateError(403, 'Invalid Password')
+    const token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' })
+    res.status(201).json({ status: 'login successful', data: user.userData(), token })
   } catch (error) {
     next(error)
   }
-}//user login
+} //user login
 
 exports.sendVerificationEmail = async (req, res, next) => {
   try {
-    const infoHash = {};
-    const user = req.user;
-    infoHash.user = user;
-    infoHash.id = user._id;
-    console.log(user);
-    const key = eval(process.env.mail_key);
-    const token = jwt.sign(infoHash, key, { expiresIn: "24h" });
-    const link = `${process.env.BASE_URL}/user/verify/${user._id}/${token}`;
+    const infoHash = {}
+    const user = req.user
+    infoHash.user = user
+    infoHash.id = user._id
+    console.log(user)
+    const key = eval(process.env.mail_key)
+    const token = jwt.sign(infoHash, key, { expiresIn: '24h' })
+    const link = `${process.env.BASE_URL}/user/verify/${user._id}/${token}`
     //generate html code
     const html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
     <p>E-mail verification was requested for this email address ${user.email}. If you requested this verification, click the link below :</p>
@@ -60,41 +59,41 @@ exports.sendVerificationEmail = async (req, res, next) => {
     <p style="color:red;">This link is expired with in 24 hrs</p>
       <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Verify Your Email</a>
     </p>`
-    await sendEmail(user.email, "Verify Email", html);
-    res.status(201).json({ data: "Registration successful ,An Email sent to your account please verify", token });
+    await sendEmail(user.email, 'Verify Email', html)
+    res.status(201).json({ data: 'Registration successful ,An Email sent to your account please verify', token })
   } catch (error) {
     next(error)
   }
-}//send email verification
+} //send email verification
 
 exports.emailVerify = async (req, res, next) => {
   try {
-    const key = process.env.mail_key;
-    const user = await userVerify(req, key);
+    const key = process.env.mail_key
+    const user = await userVerify(req, key)
     await user.update({ verified: true })
-    res.status(200).json("mail verified success")
+    res.status(200).json('mail verified success')
   } catch (error) {
     next(error)
   }
-}//verify email on link sent
+} //verify email on link sent
 
 exports.sendResetPassword = async (req, res, next) => {
   try {
-    const infoHash = {};
-    const user = req.user;
-    infoHash.user = user;
-    infoHash.id = user._id;
-    const key = eval(process.env.reset_key);
-    const token = jwt.sign(infoHash, key, { expiresIn: "1h" });
-    const link = `${process.env.BASE_URL}/password/reset/${user._id}/${token}`;
+    const infoHash = {}
+    const user = req.user
+    infoHash.user = user
+    infoHash.id = user._id
+    const key = eval(process.env.reset_key)
+    const token = jwt.sign(infoHash, key, { expiresIn: '1h' })
+    const link = `${process.env.BASE_URL}/password/reset/${user._id}/${token}`
     const html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
       <p>A password reset was requested for this email address ${user.email}. If you requested this reset, click the link below to reset your password:</p>
       <p>
       <p style="color:red;">This link is expired within 1 hr</p>
         <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Reset Your Password</a>
-      </p>` ;
-    await sendEmail(user.email, "Reset Password", html);
-    res.status(201).json({ data: "password rest successful ,An Email sent to your account please verify", token });
+      </p>`
+    await sendEmail(user.email, 'Reset Password', html)
+    res.status(201).json({ data: 'password rest successful ,An Email sent to your account please verify', token })
   } catch (error) {
     next(error)
   }
@@ -102,26 +101,28 @@ exports.sendResetPassword = async (req, res, next) => {
 
 exports.passVerify = async (req, res, next) => {
   try {
-    const key = process.env.reset_key;
-    const { password, passwordConfirm } = req.body;
-    const user = await userVerify(req, key);
-    if (await user.comparePassword(password)) generateError(403, "you already entered the old password ,please enter the new one or return to login page")
-    user.changePassword = true;
-    Object.assign(user,
-      password && { password },
-      password && { passwordConfirm },
-    );
-    await user.save();
-    res.status(201).json({ status: "password changed successfully" })
+    const key = process.env.reset_key
+    const { password, passwordConfirm } = req.body
+    const user = await userVerify(req, key)
+    if (await user.comparePassword(password))
+      generateError(403, 'you already entered the old password ,please enter the new one or return to login page')
+    user.changePassword = true
+    Object.assign(user, password && { password }, password && { passwordConfirm })
+    await user.save()
+    res.status(201).json({ status: 'password changed successfully' })
   } catch (error) {
-    next(error);
+    next(error)
   }
 } // reset password
 
 const userVerify = async (req, key) => {
-  const user = await User.findById(req.params.id);
-  if (!user) { generateError(400, "invalid link") }
-  const token = jwt.verify(req.params.token, eval(key));
-  if (!token) { generateError(400, "invalid link") }
-  return user;
-}//token and user verify
+  const user = await User.findById(req.params.id)
+  if (!user) {
+    generateError(400, 'invalid link')
+  }
+  const token = jwt.verify(req.params.token, eval(key))
+  if (!token) {
+    generateError(400, 'invalid link')
+  }
+  return user
+} //token and user verify

@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    default: ''
+    default: '',
   },
   bio: {
     type: String,
@@ -48,7 +48,7 @@ const userSchema = new mongoose.Schema({
   status: {
     type: String,
     enum: ['online', 'offline'],
-    default: 'offline'
+    default: 'offline',
   },
   workspaces: {
     type: [mongoose.Types.ObjectId],
@@ -59,8 +59,6 @@ const userSchema = new mongoose.Schema({
     default: Date.now,
   },
 })
-
-
 
 //virtual full name [get,set]
 userSchema
@@ -134,7 +132,7 @@ userSchema.pre('save', async function (next) {
 
 //pre validate
 userSchema.pre('validate', function () {
-  validateCountryPhone(this.country, this.phone_number);
+  validateCountryPhone(this.country, this.phone_number)
 })
 
 //compare password

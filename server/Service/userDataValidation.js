@@ -25,7 +25,7 @@ exports.emailValidation = () => {
         const { email } = req.body
         const user = await User.findOne({ email })
         if (!user) {
-          generateError(400, "Invalid email");
+          generateError(400, 'Invalid email')
         }
         req.user = user.userData()
         return true
