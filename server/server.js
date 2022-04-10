@@ -9,6 +9,7 @@ const path = require('path')
 const authRouter = require('./Routers/authRouter')
 const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
+const listsRouter = require('./Routers/listsRouter')
 
 //router variables
 // const workspaceRouter = require('./Routers/workSpaceRoute')
@@ -67,6 +68,7 @@ socketioConfig(io)
 //put routes
 app.use(authRouter)
 app.use(UserRouter)
+app.use(listsRouter)
 
 //Not found MW
 app.use((req, res) => {
