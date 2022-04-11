@@ -33,14 +33,27 @@ exports.login_post = async (req, res, next) => {
     const { user, password } = req.body
     if (!user.verified) {
       generateError(400, 'Your account not verified , please verify it')
+    } if (!user.password_hash) {
+      generateError(403, 'you registered by social media , please, login with google or facebook account or reset your password')
     }
     if (!(await user.comparePassword(password))) generateError(403, 'Invalid Password')
-    const token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' })
-    res.status(201).json({ status: 'login successful', data: user.userData(), token })
+    req.token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' });
+    req.user = user;
+    next();
+    // res.status(201).json({ status: 'login successful', data: user.userData(), token })
   } catch (error) {
     next(error)
   }
 } //user login
+
+exports.me_get = async (req, res, next) => {
+  try {
+    const user = req.user;
+    res.status(200).json({ data: user });
+  } catch (error) {
+    next(error);
+  }
+}//get me refer to JWT
 
 exports.sendVerificationEmail = async (req, res, next) => {
   try {
@@ -126,3 +139,35 @@ const userVerify = async (req, key) => {
   }
   return user
 } //token and user verify
+
+exports.generateToken = async (req, res, next) => {
+  try {
+    const user = req.user;
+    req.token = jwt.sign(user, process.env.secret_key, { expiresIn: '3d' });
+    next();
+  } catch (error) {
+    next(error)
+  }
+}
+
+exports.sendWelcomeMail = async (req, res, next) => {
+  try {
+    const user = req.user;
+    const token = req.token;
+    let html = '';
+    if (user.firstRegistration) {
+      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
+              <h4>Welcome</h4>
+              <p>Thanks for signing up with us to use HiveSpace</p>`
+    } else {
+      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
+              <h4>Welcome Back </h4>
+              <p>Make yourself at home</p>`
+    }
+    await sendEmail(user.email, 'Welcome email', html);
+
+    res.status(201).json({ status: 'login successful', data: user, token })
+  } catch (error) {
+    next(error)
+  }
+} // send welcome mail after login
