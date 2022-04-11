@@ -128,7 +128,8 @@ const handlePassErrors = (password, passwordConfirm) => {
 // pre validate check country, phone number and valid password
 userSchema.pre('validate', async function (next) {
   try {
-    validateCountryPhone(this.country, this.phone_number)
+    if (this.isNew)
+      validateCountryPhone(this.country, this.phone_number)
     if (this._changePassword || this.isNew) {
       handlePassErrors(this._password, this._passwordConfirm)
       let salt = await bcrypt.genSalt(10)
@@ -139,17 +140,6 @@ userSchema.pre('validate', async function (next) {
   }
 })
 
-//login with social media
-userSchema.methods.findOrCreate = async (profile, callback) => {
-  try {
-    const user = this.findOne({ 'uid': profile.id });
-    if (user)
-      return callback(user)
-  } catch (error) {
-    console.log(error);
-  }
-
-}
 
 //compare password
 userSchema.methods.comparePassword = async function (password) {
