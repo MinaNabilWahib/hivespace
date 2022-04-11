@@ -6,7 +6,7 @@ const DailyChatSchema = new mongoose.Schema({
   messages: [
     {
       data: { type: String },
-      sender: { type: String },
+      sender: { type: mongoose.Types.ObjectId, ref: 'User' },
       timestamp: { type: String },
     },
   ],

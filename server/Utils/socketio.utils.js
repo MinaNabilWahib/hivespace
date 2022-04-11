@@ -41,10 +41,11 @@ function formatMessage(userId, text) {
 //get messages from db
 function getMessagesDB(channelId, day, cb) {
   DailyChat.findOne({ _id: `${channelId}_${day}` })
-    .then(data => {
-      cb(data.messages)
+    .populate('messages.sender', 'first_name last_name image')
+    .exec((err, data) => {
+      if (err) console.log(err)
+      cb(data)
     })
-    .catch(error => console.log(error))
 }
 
 // save message to db
@@ -55,7 +56,7 @@ function saveMessageDB(message, channelId, cb) {
   DailyChat.findOneAndUpdate({ _id: `${channelId}_${day}` }, { $push: { messages: message } }, { upsert: true })
     .then(() => {
       return Channels.findOneAndUpdate(
-        { _id: '6253a74c4ec7779082858da9' },
+        { _id: channelId },
         { $addToSet: { messages: `${channelId}_${day}` } },
         { upsert: true },
       )

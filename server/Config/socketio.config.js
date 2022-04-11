@@ -7,8 +7,8 @@ class Connection {
     this.io = io
 
     //Check
-    // console.log(`Socket ${this.socket.id} Connected`)
-    // socket.emit('message', 'Connection Successful')
+    console.log(`Socket ${this.socket.id} Connected`)
+    socket.emit('message', 'Connection Successful')
 
     socket.on('joinRoom', connectionInfo => this.joinRoom(connectionInfo))
     socket.on('message', text => this.handleMessage(text))
@@ -35,6 +35,7 @@ class Connection {
     const message = formatMessage(user.userId, text)
 
     saveMessageDB(message, user.room, () => {
+      console.log('message saved')
       this.sendMessage(user.room, message)
     })
   }
