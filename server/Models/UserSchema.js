@@ -3,6 +3,10 @@ const bcrypt = require('bcrypt')
 const { validateCountryPhone } = require('../Service/userDataValidation')
 
 const userSchema = new mongoose.Schema({
+  socialId: {
+    facebook: String,
+    google: String
+  },
   first_name: {
     type: String,
     trim: true,
@@ -53,6 +57,10 @@ const userSchema = new mongoose.Schema({
   workspaces: {
     type: [mongoose.Types.ObjectId],
     ref: 'Workspace',
+  },
+  userInfo: {
+    googleInfo: Object,
+    facebookInfo: Object
   },
   date_created: {
     type: Date,
@@ -117,9 +125,10 @@ const handlePassErrors = (password, passwordConfirm) => {
   }
 }
 
-//pre save
-userSchema.pre('save', async function (next) {
+// pre validate check country, phone number and valid password
+userSchema.pre('validate', async function (next) {
   try {
+    validateCountryPhone(this.country, this.phone_number)
     if (this._changePassword || this.isNew) {
       handlePassErrors(this._password, this._passwordConfirm)
       let salt = await bcrypt.genSalt(10)
@@ -130,10 +139,17 @@ userSchema.pre('save', async function (next) {
   }
 })
 
-//pre validate
-userSchema.pre('validate', function () {
-  validateCountryPhone(this.country, this.phone_number)
-})
+//login with social media
+userSchema.methods.findOrCreate = async (profile, callback) => {
+  try {
+    const user = this.findOne({ 'uid': profile.id });
+    if (user)
+      return callback(user)
+  } catch (error) {
+    console.log(error);
+  }
+
+}
 
 //compare password
 userSchema.methods.comparePassword = async function (password) {
@@ -145,6 +161,7 @@ userSchema.methods.comparePassword = async function (password) {
 userSchema.methods.userData = function () {
   return {
     _id: this._id,
+    socialId: this.socialId,
     fullName: this.fullName,
     email: this.email,
     bio: this.bio,
@@ -152,6 +169,7 @@ userSchema.methods.userData = function () {
     country: this.country,
     image: this.image,
     verified: this.verified,
+    userInfo: this.userInfo,
     date_created: this.date_created,
   }
 }
