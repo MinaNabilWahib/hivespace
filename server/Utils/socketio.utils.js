@@ -50,8 +50,12 @@ function getMessagesDB(channelId, day, cb) {
 
 // save message to db
 function saveMessageDB(message, channelId, cb) {
+  console.log(message.timestamp)
   let day = new Date(message.timestamp).setHours(0, 0, 0, 0)
-  day = new Date(day).toISOString().slice(0, 10)
+  console.log(day)
+  day = new Date(day).toLocaleDateString()
+
+  console.log(day)
 
   DailyChat.findOneAndUpdate({ _id: `${channelId}_${day}` }, { $push: { messages: message } }, { upsert: true })
     .then(() => {
