@@ -1,8 +1,12 @@
 const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
+const { validateCountryPhone } = require('../Service/userDataValidation')
 
 const userSchema = new mongoose.Schema({
-  _id: mongoose.Types.ObjectId,
+  socialId: {
+    facebook: String,
+    google: String
+  },
   first_name: {
     type: String,
     trim: true,
@@ -28,15 +32,19 @@ const userSchema = new mongoose.Schema({
   password_hash: {
     type: String,
   },
-  phone_number: Number,
+  phone_number: String,
   country: String,
   verified: {
     type: Boolean,
     default: false,
   },
-  image: String,
+  image: {
+    type: String,
+    default: '',
+  },
   bio: {
     type: String,
+    default: 'Add your Bio',
     trim: true,
     minLength: [7, 'Minimum length is 7 characters'],
     maxLength: [50, 'Maximum Length is 50 characters'],
@@ -44,10 +52,15 @@ const userSchema = new mongoose.Schema({
   status: {
     type: String,
     enum: ['online', 'offline'],
+    default: 'offline',
   },
   workspaces: {
     type: [mongoose.Types.ObjectId],
     ref: 'Workspace',
+  },
+  userInfo: {
+    googleInfo: Object,
+    facebookInfo: Object
   },
   date_created: {
     type: Date,
@@ -59,11 +72,11 @@ const userSchema = new mongoose.Schema({
 userSchema
   .virtual('fullName')
   .get(function () {
-    return this.firstName + ' ' + this.lastName
+    return this.first_name + ' ' + this.last_name
   })
   .set(function (value) {
-    this.firstName = value.substr(0, value.indexOf(' '))
-    this.lastName = value.substr(value.indexOf(' ') + 1)
+    this.first_name = value.substr(0, value.indexOf(' '))
+    this.last_name = value.substr(value.indexOf(' ') + 1)
   })
 
 //If change password
@@ -112,9 +125,11 @@ const handlePassErrors = (password, passwordConfirm) => {
   }
 }
 
-//pre save
-userSchema.pre('save', async function (next) {
+// pre validate check country, phone number and valid password
+userSchema.pre('validate', async function (next) {
   try {
+    if (this.isNew)
+      validateCountryPhone(this.country, this.phone_number)
     if (this._changePassword || this.isNew) {
       handlePassErrors(this._password, this._passwordConfirm)
       let salt = await bcrypt.genSalt(10)
@@ -125,16 +140,18 @@ userSchema.pre('save', async function (next) {
   }
 })
 
+
 //compare password
 userSchema.methods.comparePassword = async function (password) {
   const match = await bcrypt.compare(password, this.password_hash)
   if (!match) return false
   return true
 }
-
+//custom user data
 userSchema.methods.userData = function () {
   return {
     _id: this._id,
+    socialId: this.socialId,
     fullName: this.fullName,
     email: this.email,
     bio: this.bio,
@@ -142,7 +159,8 @@ userSchema.methods.userData = function () {
     country: this.country,
     image: this.image,
     verified: this.verified,
-    date_created: this.createAt,
+    userInfo: this.userInfo,
+    date_created: this.date_created,
   }
 }
 
