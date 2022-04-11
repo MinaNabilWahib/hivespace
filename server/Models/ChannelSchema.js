@@ -8,7 +8,7 @@ const CommentSchema = new mongoose.Schema({
 })
 
 //Schema of cards that are embedded inside Lists
-const CardSchema = new mongoose.Schrma({
+const CardSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
   description: { type: String, maxlength: 200 },
   creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
@@ -31,7 +31,7 @@ const ChannelSchema = new mongoose.Schema({
   description: { type: String, maxlength: 200 },
   owner: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
   members: [{ type: mongoose.Types.ObjectId, ref: 'User' }],
-  messages: [{ type: mongoose.Types.ObjectId, ref: 'DailyChat' }],
+  messages: [{ type: String, ref: 'DailyChat' }],
   board_lists: [ListSchema],
   date_created: { type: Date, required: true },
 })

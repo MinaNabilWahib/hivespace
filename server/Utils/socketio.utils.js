@@ -1,9 +1,12 @@
+const DailyChat = require('../Models/DailyChatSchema')
+const Channels = require('../Models/ChannelSchema')
+
 //current users in server.
 const users = []
 
 // Join user to chat
-function userJoin(socketId, userId, username, room) {
-  const user = { socketId, userId, username, room }
+function userJoin(socketId, userId, room) {
+  const user = { socketId, userId, room }
   users.push(user)
   return user
 }
@@ -27,13 +30,38 @@ function getRoomUsers(room) {
   return users.filter(user => user.room === room)
 }
 
-function formatMessage(userId, username, text) {
+function formatMessage(userId, text) {
   return {
-    userId,
-    username,
+    sender: userId,
     data: text,
-    date_created: new Date().getTime(),
+    timestamp: new Date().getTime(),
   }
+}
+
+//get messages from db
+function getMessagesDB(channelId, day, cb) {
+  DailyChat.findOne({ _id: `${channelId}_${day}` })
+    .then(data => {
+      cb(data.messages)
+    })
+    .catch(error => console.log(error))
+}
+
+// save message to db
+function saveMessageDB(message, channelId, cb) {
+  let day = new Date(message.timestamp).setHours(0, 0, 0, 0)
+  day = new Date(day).toISOString().slice(0, 10)
+
+  DailyChat.findOneAndUpdate({ _id: `${channelId}_${day}` }, { $push: { messages: message } }, { upsert: true })
+    .then(() => {
+      return Channels.findOneAndUpdate(
+        { _id: '6253a74c4ec7779082858da9' },
+        { $addToSet: { messages: `${channelId}_${day}` } },
+        { upsert: true },
+      )
+    })
+    .then(() => cb())
+    .catch(error => console.log(error))
 }
 
 module.exports = {
@@ -42,4 +70,6 @@ module.exports = {
   userLeave,
   getRoomUsers,
   formatMessage,
+  saveMessageDB,
+  getMessagesDB,
 }
