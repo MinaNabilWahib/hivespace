@@ -9,6 +9,7 @@ const path = require('path')
 const authRouter = require('./Routers/authRouter')
 const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
+const dailyChatRouter = require('./Routers/dailyChatRouter')
 
 //router variables
 // const workspaceRouter = require('./Routers/workSpaceRoute')
@@ -67,7 +68,7 @@ socketioConfig(io)
 //put routes
 app.use(authRouter)
 app.use(UserRouter)
-
+app.use(dailyChatRouter)
 //Not found MW
 app.use((req, res) => {
   res.status(404).json({ data: 'Not Found' })
