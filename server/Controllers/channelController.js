@@ -74,6 +74,7 @@ exports.updatechannel = (request, response, next) => {
     error.message = errors.array().reduce((current, object) => current + object.msg + ' ', '')
     throw error
   }
+
   channel
     .updateOne(
       { _id: request.body.id },
