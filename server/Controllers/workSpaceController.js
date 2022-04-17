@@ -33,7 +33,9 @@ exports.createWorkspace = (request, response, next) => {
   object
     .save()
     .then(data => {
-      response.status(200).json({ message: 'workspace has successfully added', data: data })
+      user.updateOne({ _id: request.body.owner }, { $push: { workspaces: data._id } }).then(() => {
+        response.status(200).json({ message: 'workspace has successfully added', data: data })
+      })
     })
     .catch(err => {
       next(err)
@@ -92,12 +94,13 @@ exports.updateWorkSpace = (request, response, next) => {
 }
 
 exports.deleteWorkSpace = (request, response, next) => {
-  workspace
-    .deleteOne({ _id: request.body.id })
-    .then(data => {
-      if (data.matchedCount == 0) throw new Error("workspace isn't fount")
-      else response.status(201).json({ message: 'workspace has successfully deleted' })
-    })
+  workspace.deleteOne({ _id: request.body.workspace }).then(data => {
+    if (data.matchedCount == 0) throw new Error("workspace isn't fount")
+    else response.status(201).json({ message: 'workspace has successfully deleted' })
+  })
+  user
+    .updateMany({ workspaces: request.body.workspace }, { $pull: { workspaces: request.body.workspace } })
+    .then()
     .catch(err => {
       next(err)
     })
