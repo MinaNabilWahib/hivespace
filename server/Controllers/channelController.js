@@ -1,5 +1,6 @@
 const { validationResult } = require('express-validator')
 const channel = require('../Models/ChannelSchema')
+const workspace = require('../Models/WorkspaceSchema')
 
 exports.getchannel = (request, response, next) => {
   channel
@@ -25,6 +26,7 @@ exports.addchannel = (request, response, next) => {
     title: request.body.title,
     description: request.body.description,
     members: request.body.members,
+    owner: request.body.owner,
     date_created: new Date(),
   })
 
@@ -36,6 +38,32 @@ exports.addchannel = (request, response, next) => {
     .catch(err => {
       next(err)
     })
+}
+
+exports.addChannelMember = async (req, res, next) => {
+  try {
+    const mychannel = await workspace.updateOne(
+      { _id: req.body.workspaceId },
+      { $push: { channels: req.body.channelId } },
+    )
+
+    res.json({ mychannel })
+  } catch (error) {
+    next(error)
+  }
+}
+
+exports.removeChannelMember = async (req, res, next) => {
+  try {
+    const mychannel = await workspace.updateOne(
+      { _id: req.body.workspaceId },
+      { $pull: { channels: req.body.channelId } },
+    )
+
+    res.json({ mychannel })
+  } catch (error) {
+    next(error)
+  }
 }
 
 exports.updatechannel = (request, response, next) => {
@@ -53,6 +81,7 @@ exports.updatechannel = (request, response, next) => {
         $set: {
           title: request.body.title,
           description: request.body.description,
+          owner: request.body.owner,
           members: request.body.members,
         },
       },

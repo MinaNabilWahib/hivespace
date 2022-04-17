@@ -29,7 +29,7 @@ const ListSchema = new mongoose.Schema({
 const ChannelSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
   description: { type: String, maxlength: 200 },
-  owner: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
+  owner: { type: mongoose.Types.ObjectId, ref: 'User' },
   members: [{ type: mongoose.Types.ObjectId, ref: 'User' }],
   messages: [{ type: mongoose.Types.ObjectId, ref: 'DailyChat' }],
   board_lists: [ListSchema],

@@ -12,6 +12,7 @@ const socketioConfig = require('./Config/socketio.config')
 
 //router variables
 const workspaceRouter = require('./Routers/workSpaceRoute')
+const channelRouter = require('./Routers/channelRouter')
 
 //create server
 const app = express()
@@ -68,6 +69,7 @@ socketioConfig(io)
 app.use(authRouter)
 app.use(UserRouter)
 app.use(workspaceRouter)
+app.use(channelRouter)
 
 //Not found MW
 app.use((req, res) => {

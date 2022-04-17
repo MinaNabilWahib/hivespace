@@ -1,5 +1,6 @@
 const { validationResult } = require('express-validator')
 const workspace = require('../Models/WorkspaceSchema')
+const user = require('../Models/UserSchema')
 
 exports.getWorkSpace = (request, response, next) => {
   workspace
@@ -12,7 +13,7 @@ exports.getWorkSpace = (request, response, next) => {
     })
 }
 
-exports.addWorkSpace = (request, response, next) => {
+exports.createWorkspace = (request, response, next) => {
   let errors = validationResult(request)
   if (!errors.isEmpty()) {
     let error = new Error()
@@ -25,6 +26,7 @@ exports.addWorkSpace = (request, response, next) => {
     title: request.body.title,
     description: request.body.description,
     members: request.body.members,
+    owner: request.body.owner,
     date_created: new Date(),
   })
 
@@ -36,6 +38,28 @@ exports.addWorkSpace = (request, response, next) => {
     .catch(err => {
       next(err)
     })
+}
+
+exports.addWorkspaceMember = async (req, res, next) => {
+  try {
+    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $push: { workspaces: req.body.workspace } })
+    const member = await workspace.updateOne({ _id: req.body.workspace }, { $push: { members: req.body.user } })
+
+    res.json({ myWorkspace, member })
+  } catch (error) {
+    next(error)
+  }
+}
+
+exports.deleteWorkspaceMember = async (req, res, next) => {
+  try {
+    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $pull: { workspaces: req.body.workspace } })
+    const member = await workspace.updateOne({ _id: req.body.workspace }, { $pull: { members: req.body.user } })
+
+    res.json({ myWorkspace, member })
+  } catch (error) {
+    next(error)
+  }
 }
 
 exports.updateWorkSpace = (request, response, next) => {
@@ -53,6 +77,7 @@ exports.updateWorkSpace = (request, response, next) => {
         $set: {
           title: request.body.title,
           description: request.body.description,
+          owner: request.body.owner,
           members: request.body.members,
         },
       },
