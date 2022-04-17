@@ -17,7 +17,7 @@ exports.register_post = async (req, res, next) => {
     })
 
     //save data
-    // await user.save();
+    await user.save()
     req.user = user
     res.status(200).json({ user })
     // next();

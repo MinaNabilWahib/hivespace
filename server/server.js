@@ -11,7 +11,7 @@ const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
 
 //router variables
-// const workspaceRouter = require('./Routers/workSpaceRoute')
+const workspaceRouter = require('./Routers/workSpaceRoute')
 
 //create server
 const app = express()
@@ -67,6 +67,7 @@ socketioConfig(io)
 //put routes
 app.use(authRouter)
 app.use(UserRouter)
+app.use(workspaceRouter)
 
 //Not found MW
 app.use((req, res) => {

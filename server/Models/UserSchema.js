@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 
 const userSchema = new mongoose.Schema({
-  _id: mongoose.Types.ObjectId,
+  _id: mongoose.Types.ObjectId, //mon2sha
   first_name: {
     type: String,
     trim: true,
