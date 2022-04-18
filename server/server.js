@@ -10,7 +10,7 @@ const authRouter = require('./Routers/authRouter')
 const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
 const listsRouter = require('./Routers/listsRouter')
-
+const cardsRouter = require('./Routers/cardsRouter')
 //router variables
 const workspaceRouter = require('./Routers/workSpaceRoute')
 const channelRouter = require('./Routers/channelRouter')
@@ -70,6 +70,7 @@ socketioConfig(io)
 app.use(authRouter)
 app.use(UserRouter)
 app.use(listsRouter)
+app.use(cardsRouter)
 app.use(channelRouter)
 app.use(workspaceRouter)
 
