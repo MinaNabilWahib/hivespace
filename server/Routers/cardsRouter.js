@@ -1,13 +1,13 @@
 const express = require('express')
 const cardsRouter = express.Router()
 const controller = require('../Controllers/cardsController.js')
-cardsRouter.router
+cardsRouter
   .route('/create-card')
 
   .put(controller.createCard)
 
 ///
-cardsRouter.router
+cardsRouter
   .route('/delete-card')
 
   .put(controller.deleteCard)

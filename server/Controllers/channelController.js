@@ -1,9 +1,9 @@
 const { validationResult } = require('express-validator')
-const channel = require('../Models/ChannelSchema')
+const channelFile = require('../Models/ChannelSchema').channel
 const workspace = require('../Models/WorkspaceSchema')
 
 exports.getchannel = (request, response, next) => {
-  channel
+  channelFile
     .find()
     .then(data => {
       response.status(200).json({ message: 'Your channels', data: data })
@@ -23,7 +23,7 @@ exports.addchannel = async (request, response, next) => {
       throw error
     }
 
-    let object = new channel({
+    let object = new channelFile({
       title: request.body.title,
       description: request.body.description,
       members: request.body.members,
@@ -74,7 +74,7 @@ exports.updatechannel = (request, response, next) => {
     throw error
   }
 
-  channel
+  channelFile
     .updateOne(
       { _id: request.body.id },
       {
@@ -96,7 +96,7 @@ exports.updatechannel = (request, response, next) => {
 }
 
 exports.deletechannel = (request, response, next) => {
-  channel
+  channelFile
     .deleteOne({ _id: request.body.id })
     .then(data => {
       if (data.matchedCount == 0) throw new Error("channel isn't fount")

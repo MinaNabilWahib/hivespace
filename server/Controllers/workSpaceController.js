@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator')
 const workspace = require('../Models/WorkspaceSchema')
-// const channel = require('../Models/ChannelSchema')
+const channel = require('../Models/ChannelSchema')
 const user = require('../Models/UserSchema')
 
 exports.getWorkSpace = (request, response, next) => {
@@ -95,14 +95,15 @@ exports.updateWorkSpace = (request, response, next) => {
 
 exports.deleteWorkSpace = async (request, response, next) => {
   try {
+    let thisWorkspace = await workspace.findOne({ _id: request.body.workspace })
+    for (const singleChannel of thisWorkspace.channels) {
+      await channel.deleteOne({ _id: singleChannel })
+    }
+
     let data = await workspace.deleteOne({ _id: request.body.workspace })
     if (data.matchedCount == 0) throw new Error("workspace isn't fount")
     else response.status(201).json({ message: 'workspace has successfully deleted' })
     await user.updateMany({ workspaces: request.body.workspace }, { $pull: { workspaces: request.body.workspace } })
-
-    // for (const singleChannel of request.body.workspace) {
-    //   await channel.deleteOne({ _id: singleChannel })
-    // }
   } catch (err) {
     next(err)
   }
