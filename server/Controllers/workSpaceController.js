@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator')
 const workspace = require('../Models/WorkspaceSchema')
-const channel = require('../Models/ChannelSchema')
+const channel = require('../Models/ChannelSchema').channel
 const user = require('../Models/UserSchema')
 
 exports.getWorkSpace = (request, response, next) => {
@@ -64,16 +64,17 @@ exports.deleteWorkspaceMember = async (req, res, next) => {
   }
 }
 
-exports.updateWorkSpace = (request, response, next) => {
-  let errors = validationResult(request)
-  if (!errors.isEmpty()) {
-    let error = new Error()
-    error.status = 422
-    error.message = errors.array().reduce((current, object) => current + object.msg + ' ', '')
-    throw error
-  }
-  workspace
-    .updateOne(
+exports.updateWorkSpace = async (request, response, next) => {
+  try {
+    let errors = validationResult(request)
+    if (!errors.isEmpty()) {
+      let error = new Error()
+      error.status = 422
+      error.message = errors.array().reduce((current, object) => current + object.msg + ' ', '')
+      throw error
+    }
+
+    let data = await workspace.updateOne(
       { _id: request.body.id },
       {
         $set: {
@@ -84,13 +85,19 @@ exports.updateWorkSpace = (request, response, next) => {
         },
       },
     )
-    .then(data => {
-      if (data.matchedCount == 0) throw new Error("workspace isn't found")
-      else response.status(201).json({ message: 'workspace has successfully updated', data: data })
-    })
-    .catch(err => {
-      next(err)
-    })
+    if (data.matchedCount == 0) {
+      throw new Error("workspace isn't found")
+    } else {
+      await user.updateMany({ workspaces: request.body.id }, { $pull: { workspaces: request.body.id } })
+      await user.updateOne({ _id: request.body.owner }, { $push: { workspaces: request.body.id } })
+      for (const member of request.body.members) {
+        await user.updateOne({ _id: member }, { $push: { workspaces: request.body.id } })
+        response.status(201).json({ message: 'workspace has successfully updated', data: data })
+      }
+    }
+  } catch (err) {
+    next(err)
+  }
 }
 
 exports.deleteWorkSpace = async (request, response, next) => {
@@ -101,7 +108,7 @@ exports.deleteWorkSpace = async (request, response, next) => {
     }
 
     let data = await workspace.deleteOne({ _id: request.body.workspace })
-    if (data.matchedCount == 0) throw new Error("workspace isn't fount")
+    if (data.deletedCount == 0) throw new Error("workspace isn't fount")
     else response.status(201).json({ message: 'workspace has successfully deleted' })
     await user.updateMany({ workspaces: request.body.workspace }, { $pull: { workspaces: request.body.workspace } })
   } catch (err) {

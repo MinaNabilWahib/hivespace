@@ -1,9 +1,9 @@
 const { validationResult } = require('express-validator')
-const channelFile = require('../Models/ChannelSchema').channel
+const channel = require('../Models/ChannelSchema').channel
 const workspace = require('../Models/WorkspaceSchema')
 
 exports.getchannel = (request, response, next) => {
-  channelFile
+  channel
     .find()
     .then(data => {
       response.status(200).json({ message: 'Your channels', data: data })
@@ -23,7 +23,7 @@ exports.addchannel = async (request, response, next) => {
       throw error
     }
 
-    let object = new channelFile({
+    let object = new channel({
       title: request.body.title,
       description: request.body.description,
       members: request.body.members,
@@ -74,7 +74,7 @@ exports.updatechannel = (request, response, next) => {
     throw error
   }
 
-  channelFile
+  channel
     .updateOne(
       { _id: request.body.id },
       {
@@ -95,14 +95,17 @@ exports.updatechannel = (request, response, next) => {
     })
 }
 
-exports.deletechannel = (request, response, next) => {
-  channelFile
-    .deleteOne({ _id: request.body.id })
-    .then(data => {
-      if (data.matchedCount == 0) throw new Error("channel isn't fount")
-      else response.status(201).json({ message: 'channel has successfully deleted' })
-    })
-    .catch(err => {
-      next(err)
-    })
+exports.deletechannel = async (request, response, next) => {
+  try {
+    await workspace.updateOne({ channels: request.body.channelId }, { $pull: { channels: request.body.channelId } })
+
+    let data = await channel.deleteOne({ _id: request.body.channelId })
+    if (data.deletedCount === 0) {
+      throw new Error("channel isn't fount")
+    } else {
+      response.status(201).json({ message: 'channel has successfully deleted' })
+    }
+  } catch (err) {
+    next(err)
+  }
 }
