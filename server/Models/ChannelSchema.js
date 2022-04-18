@@ -36,7 +36,11 @@ const ChannelSchema = new mongoose.Schema({
   date_created: { type: Date, required: true },
 })
 
-module.exports = mongoose.model('Channel', ChannelSchema)
+module.exports = {
+  channel: mongoose.model('Channel', ChannelSchema),
+  list: mongoose.model('List', ListSchema),
+  card: mongoose.model('Card', CardSchema),
+}
 
 /**Updates:
  * 1- description is not required

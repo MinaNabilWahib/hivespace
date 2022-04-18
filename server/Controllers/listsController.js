@@ -3,8 +3,15 @@ const channel = require('../Models/ChannelSchema')
 // create list
 exports.createList = async (req, res, next) => {
   try {
-    const list = await channel.updateOne({ _id: req.body.id }, { $push: { board_lists: req.body.list } })
-    res.json(list)
+    let object = new channel.list({
+      title: req.body.title,
+
+      date_created: new Date(),
+    })
+
+    let data = await object.save()
+    const newList = await channel.updateOne({ _id: req.body.id }, { $push: { board_lists: data._id } })
+    res.json(newList)
   } catch (error) {
     next(error)
   }
