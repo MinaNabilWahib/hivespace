@@ -8,6 +8,7 @@ router
   .get(controller.getchannel)
   .post(
     [
+      body('workspaceId').notEmpty().withMessage('choose which workspace to add the channel in it'),
       body('title').isString().withMessage('Channel title must be string'),
       body('description').isString().withMessage('Channel description must be a string'),
       body('members').isArray().withMessage('Channel members must be an array'),
@@ -26,6 +27,9 @@ router
   )
   .delete(controller.deletechannel)
 
-router.route('/updateChannelMembers').put(controller.addChannelMember).delete(controller.removeChannelMember)
+router
+  .route('/updateChannelinWorkspace')
+  .put(controller.addChanneltoWorkspace)
+  .delete(controller.removeChannelfromWorkspace)
 
 module.exports = router
