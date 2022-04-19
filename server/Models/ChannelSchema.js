@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 //Schema of comments that are embedded inside of Cards
 const CommentSchema = new mongoose.Schema({
   content: { type: String, required: true, maxlength: 200 },
-  sender: { type: mongoose.Types.ObjectId, required: true },
+  // sender: { type: mongoose.Types.ObjectId, required: true },
   date_created: { type: Date, required: true },
 })
 
@@ -11,9 +11,9 @@ const CommentSchema = new mongoose.Schema({
 const CardSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
   description: { type: String, maxlength: 200 },
-  creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
+  // creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
   assigned_to: { type: mongoose.Types.ObjectId, ref: 'User' },
-  comments: [CommentSchema],
+  comments: [{ type: mongoose.Types.ObjectId, ref: 'CommentSchema' }],
   due_date: { type: Date },
   date_created: { type: Date, required: true },
 })
@@ -21,7 +21,7 @@ const CardSchema = new mongoose.Schema({
 //Schema of lists that are embedded inside of Channels
 const ListSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
-  cards: [CardSchema],
+  cards: [{ type: mongoose.Types.ObjectId, ref: 'CardSchema' }],
   date_created: { type: Date, required: true },
 })
 
@@ -32,7 +32,7 @@ const ChannelSchema = new mongoose.Schema({
   owner: { type: mongoose.Types.ObjectId, ref: 'User' },
   members: [{ type: mongoose.Types.ObjectId, ref: 'User' }],
   messages: [{ type: mongoose.Types.ObjectId, ref: 'DailyChat' }],
-  board_lists: [ListSchema],
+  board_lists: [{ type: mongoose.Types.ObjectId, ref: 'ListSchema' }],
   date_created: { type: Date, required: true },
 })
 
@@ -40,6 +40,7 @@ module.exports = {
   channel: mongoose.model('Channel', ChannelSchema),
   list: mongoose.model('List', ListSchema),
   card: mongoose.model('Card', CardSchema),
+  comment: mongoose.model('Comment', CommentSchema),
 }
 
 /**Updates:

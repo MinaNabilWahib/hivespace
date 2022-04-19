@@ -10,6 +10,6 @@ listsRouter
 listsRouter
   .route('/delete-list')
 
-  .put(controller.deleteList)
+  .delete(controller.deleteList)
 
 module.exports = listsRouter

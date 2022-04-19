@@ -14,7 +14,7 @@ const cardsRouter = require('./Routers/cardsRouter')
 //router variables
 const workspaceRouter = require('./Routers/workSpaceRoute')
 const channelRouter = require('./Routers/channelRouter')
-
+const commentRouter = require('./Routers/commentsRouter')
 //create server
 const app = express()
 //https
@@ -73,6 +73,7 @@ app.use(listsRouter)
 app.use(cardsRouter)
 app.use(channelRouter)
 app.use(workspaceRouter)
+app.use(commentRouter)
 
 //Not found MW
 app.use((req, res) => {

@@ -10,6 +10,6 @@ cardsRouter
 cardsRouter
   .route('/delete-card')
 
-  .put(controller.deleteCard)
+  .delete(controller.deleteCard)
 
 module.exports = cardsRouter
