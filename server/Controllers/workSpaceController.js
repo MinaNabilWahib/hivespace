@@ -32,10 +32,24 @@ exports.createWorkspace = async (request, response, next) => {
       date_created: new Date(),
     })
     let data = await object.save()
+
+    let channelObject = new channel({
+      workspaceId: await data._id,
+      title: 'General Channel',
+      description: 'Welcome to your First Channel you can add more channels by clicking on Add channel button',
+      members: request.body.members,
+      owner: request.body.owner,
+      date_created: new Date(),
+    })
+    await channelObject.save()
+
     await user.updateOne({ _id: request.body.owner }, { $push: { workspaces: data._id } })
     for (const member of request.body.members) {
       await user.updateOne({ _id: member }, { $push: { workspaces: data._id } })
     }
+
+    await workspace.updateOne({ _id: data._id }, { $push: { channels: channelObject._id } })
+
     response.json({ data })
   } catch (err) {
     next(err)
