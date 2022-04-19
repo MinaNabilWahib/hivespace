@@ -23,7 +23,7 @@ exports.addchannel = async (request, response, next) => {
       throw error
     }
 
-    let object = new channel({
+    let object = new channel.channel({
       title: request.body.title,
       description: request.body.description,
       members: request.body.members,
