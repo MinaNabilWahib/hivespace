@@ -1,15 +1,16 @@
 const express = require('express')
 const cardsRouter = express.Router()
 const controller = require('../Controllers/cardsController.js')
+const { validateToken } = require('../Middleware/permissions')
 cardsRouter
   .route('/create-card')
 
-  .put(controller.createCard)
+  .put(validateToken, controller.createCard)
 
 ///
 cardsRouter
   .route('/delete-card')
 
-  .delete(controller.deleteCard)
+  .delete(validateToken, controller.deleteCard)
 
 module.exports = cardsRouter
