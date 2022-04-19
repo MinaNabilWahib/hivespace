@@ -47,34 +47,10 @@ exports.createWorkspace = async (request, response, next) => {
     for (const member of request.body.members) {
       await user.updateOne({ _id: member }, { $push: { workspaces: data._id } })
     }
-
     await workspace.updateOne({ _id: data._id }, { $push: { channels: channelObject._id } })
-
     response.json({ data })
   } catch (err) {
     next(err)
-  }
-}
-
-exports.addWorkspaceMember = async (req, res, next) => {
-  try {
-    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $push: { workspaces: req.body.workspace } })
-    const member = await workspace.updateOne({ _id: req.body.workspace }, { $push: { members: req.body.user } })
-
-    res.json({ myWorkspace, member })
-  } catch (error) {
-    next(error)
-  }
-}
-
-exports.deleteWorkspaceMember = async (req, res, next) => {
-  try {
-    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $pull: { workspaces: req.body.workspace } })
-    const member = await workspace.updateOne({ _id: req.body.workspace }, { $pull: { members: req.body.user } })
-
-    res.json({ myWorkspace, member })
-  } catch (error) {
-    next(error)
   }
 }
 
@@ -127,5 +103,27 @@ exports.deleteWorkSpace = async (request, response, next) => {
     await user.updateMany({ workspaces: request.body.workspace }, { $pull: { workspaces: request.body.workspace } })
   } catch (err) {
     next(err)
+  }
+}
+
+exports.addWorkspaceMember = async (req, res, next) => {
+  try {
+    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $push: { workspaces: req.body.workspace } })
+    const member = await workspace.updateOne({ _id: req.body.workspace }, { $push: { members: req.body.user } })
+
+    res.json({ myWorkspace, member })
+  } catch (error) {
+    next(error)
+  }
+}
+
+exports.deleteWorkspaceMember = async (req, res, next) => {
+  try {
+    const myWorkspace = await user.updateOne({ _id: req.body.user }, { $pull: { workspaces: req.body.workspace } })
+    const member = await workspace.updateOne({ _id: req.body.workspace }, { $pull: { members: req.body.user } })
+
+    res.json({ myWorkspace, member })
+  } catch (error) {
+    next(error)
   }
 }
