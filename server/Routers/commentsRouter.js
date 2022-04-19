@@ -2,10 +2,15 @@ const express = require('express')
 const commentRouter = express.Router()
 const controller = require('../Controllers/commentsController.js')
 const { validateToken } = require('../Middleware/permissions')
+const { body } = require('express-validator')
 commentRouter
   .route('/create-comment')
 
-  .put(validateToken, controller.createComment)
+  .put(
+    [body('content').isString().isLength({ max: 200 }).notEmpty(), body('sender').notEmpty],
+    validateToken,
+    controller.createComment,
+  )
 
 ///
 commentRouter

@@ -2,10 +2,15 @@ const express = require('express')
 const listsRouter = express.Router()
 const controller = require('../Controllers/listsController.js')
 const { validateToken } = require('../Middleware/permissions')
+const { body } = require('express-validator')
 listsRouter
   .route('/create-list')
 
-  .put(validateToken, controller.createList)
+  .put(
+    [body('title').isString().notEmpty().isLength({ max: 20 }).withMessage('must enter a title')],
+    validateToken,
+    controller.createList,
+  )
 
 ///
 listsRouter

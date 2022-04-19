@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 //Schema of comments that are embedded inside of Cards
 const CommentSchema = new mongoose.Schema({
   content: { type: String, required: true, maxlength: 200 },
-  // sender: { type: mongoose.Types.ObjectId, required: true },
+  sender: { type: mongoose.Types.ObjectId, required: true },
   date_created: { type: Date, required: true },
 })
 
@@ -11,7 +11,7 @@ const CommentSchema = new mongoose.Schema({
 const CardSchema = new mongoose.Schema({
   title: { type: String, required: true, maxlength: 20 },
   description: { type: String, maxlength: 200 },
-  // creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
+  creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' },
   assigned_to: { type: mongoose.Types.ObjectId, ref: 'User' },
   comments: [{ type: mongoose.Types.ObjectId, ref: 'CommentSchema' }],
   due_date: { type: Date },

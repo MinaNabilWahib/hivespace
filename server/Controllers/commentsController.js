@@ -5,7 +5,7 @@ exports.createComment = async (req, res, next) => {
   try {
     let object = new comment({
       content: req.body.content,
-
+      sender: req.body.sender,
       date_created: new Date(),
     })
 
