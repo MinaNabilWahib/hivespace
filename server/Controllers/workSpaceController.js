@@ -23,11 +23,17 @@ exports.createWorkspace = async (request, response, next) => {
       error.message = errors.array().reduce((current, object) => current + object.msg + ' ', '')
       throw error
     }
+    const { emails } = request.body;
+    const users = {}
+    emails.map((email) => {
+      let user = user.findOne({ email })
+      if (user) users.push(user._id);
+    })
 
     let object = new workspace({
       title: request.body.title,
       description: request.body.description,
-      members: request.body.members,
+      members: users,
       owner: request.body.owner,
       date_created: new Date(),
     })
