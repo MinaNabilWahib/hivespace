@@ -15,7 +15,7 @@ router
       body('members').isArray().withMessage('Channel members must be an array'),
       body('owner').notEmpty().withMessage('channel must have an owner'),
     ],
-    // validateToken,
+    validateToken,
     controller.addchannel,
   )
   .put(
@@ -25,7 +25,7 @@ router
       body('members').isArray().withMessage('Channel members must be an array'),
       body('owner').notEmpty().withMessage('channel must have an owner'),
     ],
-    // validateToken,
+    validateToken,
     controller.updatechannel,
   )
   .delete(validateToken, controller.deletechannel)
