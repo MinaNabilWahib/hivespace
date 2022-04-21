@@ -23,12 +23,16 @@ exports.createWorkspace = async (request, response, next) => {
       error.message = errors.array().reduce((current, object) => current + object.msg + ' ', '')
       throw error
     }
-    const { emails } = request.body;
-    const users = {}
-    emails.map((email) => {
-      let user = user.findOne({ email })
-      if (user) users.push(user._id);
-    })
+
+    let users = []
+    for (const member of request.body.members) {
+      let findEmail = await user.findOne({ email: member })
+      if (findEmail === null) {
+        throw new Error(`${member} invalid user`)
+      } else {
+        users.push(findEmail._id)
+      }
+    }
 
     let object = new workspace({
       title: request.body.title,
@@ -37,20 +41,21 @@ exports.createWorkspace = async (request, response, next) => {
       owner: request.body.owner,
       date_created: new Date(),
     })
+
     let data = await object.save()
 
     let channelObject = new channel({
       workspaceId: await data._id,
       title: 'General Channel',
       description: 'Welcome to your First Channel you can add more channels by clicking on Add channel button',
-      members: request.body.members,
+      members: users,
       owner: request.body.owner,
       date_created: new Date(),
     })
     await channelObject.save()
 
     await user.updateOne({ _id: request.body.owner }, { $push: { workspaces: data._id } })
-    for (const member of request.body.members) {
+    for (const member of users) {
       await user.updateOne({ _id: member }, { $push: { workspaces: data._id } })
     }
     await workspace.updateOne({ _id: data._id }, { $push: { channels: channelObject._id } })
@@ -70,6 +75,16 @@ exports.updateWorkSpace = async (request, response, next) => {
       throw error
     }
 
+    let users = []
+    for (const member of request.body.members) {
+      let findEmail = await user.findOne({ email: member })
+      if (findEmail === null) {
+        throw new Error(`${member} invalid user`)
+      } else {
+        users.push(findEmail._id)
+      }
+    }
+
     let data = await workspace.updateOne(
       { _id: request.body.id },
       {
@@ -77,7 +92,7 @@ exports.updateWorkSpace = async (request, response, next) => {
           title: request.body.title,
           description: request.body.description,
           owner: request.body.owner,
-          members: request.body.members,
+          members: users,
         },
       },
     )
@@ -86,7 +101,7 @@ exports.updateWorkSpace = async (request, response, next) => {
     } else {
       await user.updateMany({ workspaces: request.body.id }, { $pull: { workspaces: request.body.id } })
       await user.updateOne({ _id: request.body.owner }, { $push: { workspaces: request.body.id } })
-      for (const member of request.body.members) {
+      for (const member of users) {
         await user.updateOne({ _id: member }, { $push: { workspaces: request.body.id } })
         response.status(201).json({ message: 'workspace has successfully updated', data: data })
       }

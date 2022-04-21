@@ -1,6 +1,7 @@
 const { validationResult } = require('express-validator')
 const channel = require('../Models/ChannelSchema').channel
 const workspace = require('../Models/WorkspaceSchema')
+const user = require('../Models/UserSchema')
 
 exports.getchannel = (request, response, next) => {
   channel
@@ -23,21 +24,32 @@ exports.addchannel = async (request, response, next) => {
       throw error
     }
 
-    let object = new channel.channel({
+    let users = []
+    for (const member of request.body.members) {
+      let findEmail = await user.findOne({ email: member })
+      if (findEmail === null) {
+        throw new Error(`${member} invalid user`)
+      } else {
+        users.push(findEmail._id)
+      }
+    }
+
+    let object = new channel({
       title: request.body.title,
       description: request.body.description,
-      members: request.body.members,
+      members: users,
       owner: request.body.owner,
       date_created: new Date(),
     })
 
-    for (const member of request.body.members) {
+    for (const member of users) {
       let check = await workspace.findOne({
         _id: request.body.workspaceId,
         members: { $in: [member] },
       })
       if (check === null) {
-        throw new Error(`${member} isn't found as a member in this workspace`)
+        let wrongPerson = await user.findOne({ _id: member })
+        throw new Error(`${wrongPerson.email} isn't found as a member in this workspace`)
       } else {
         let data = await object.save()
         await workspace.updateOne({ _id: request.body.workspaceId }, { $push: { channels: data._id } })
@@ -59,6 +71,16 @@ exports.updatechannel = async (request, response, next) => {
       throw error
     }
 
+    let users = []
+    for (const member of request.body.members) {
+      let findEmail = await user.findOne({ email: member })
+      if (findEmail === null) {
+        throw new Error(`${member} invalid user`)
+      } else {
+        users.push(findEmail._id)
+      }
+    }
+
     let data = await channel.updateOne(
       { _id: request.body.id },
       {
@@ -66,20 +88,21 @@ exports.updatechannel = async (request, response, next) => {
           title: request.body.title,
           description: request.body.description,
           owner: request.body.owner,
-          members: request.body.members,
+          members: users,
         },
       },
     )
     if (data.matchedCount == 0) {
       throw new Error("channel isn't found")
     } else {
-      for (const member of request.body.members) {
+      for (const member of users) {
         let check = await workspace.findOne({
           _id: request.body.workspaceId,
           members: { $in: [member] },
         })
         if (check === null) {
-          throw new Error(`${member} isn't found as a member in this workspace`)
+          let wrongPerson = await user.findOne({ _id: member })
+          throw new Error(`${wrongPerson.email} isn't found as a member in this workspace`)
         } else {
           response.status(201).json({ message: 'channel has successfully updated', data: data })
         }

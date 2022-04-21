@@ -14,7 +14,7 @@ router
       body('members').isArray().withMessage('workspace members must be an array'),
       body('owner').notEmpty().withMessage('workspace must have an owner'),
     ],
-    validateToken,
+    // validateToken,
     controller.createWorkspace,
   )
   .put(
@@ -24,7 +24,7 @@ router
       body('members').isArray().withMessage('workspace members must be an array'),
       body('owner').notEmpty().withMessage('workspace must have an owner'),
     ],
-    validateToken,
+    // validateToken,
     controller.updateWorkSpace,
   )
   .delete(validateToken, controller.deleteWorkSpace)
