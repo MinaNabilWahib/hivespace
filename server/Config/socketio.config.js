@@ -8,7 +8,7 @@ class Connection {
 
     //Check
     console.log(`Socket ${this.socket.id} Connected`)
-    socket.emit('message', 'Connection Successful')
+    // socket.emit('message', 'Connection Successful')
 
     socket.on('joinRoom', connectionInfo => this.joinRoom(connectionInfo))
     socket.on('message', text => this.handleMessage(text))
@@ -34,19 +34,27 @@ class Connection {
     const user = getCurrentUser(this.socket.id)
     const message = formatMessage(user.userId, text)
 
-    saveMessageDB(message, user.room, () => {
-      console.log('message saved')
-      this.sendMessage(user.room, message)
+    saveMessageDB(message, user.room, data => {
+      this.sendMessage(user.room, data.messages[0])
     })
   }
 
   getMessages({ channelId, day }) {
-    getMessagesDB(channelId, day, messages => {
-      this.socket.emit('output_messages', messages)
+    getMessagesDB(channelId, day, data => {
+      // this.socket.emit('message', data)
+      if (data && data.messages.length > 0) {
+        data.messages.forEach(message => {
+          // console.log(message)
+          this.socket.emit('message', message)
+        })
+      } else {
+        this.socket.emit('message', null)
+      }
     })
   }
 
   disconnect() {
+    console.log('user left')
     userLeave(this.socket.id)
   }
 }

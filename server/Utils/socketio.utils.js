@@ -65,7 +65,15 @@ function saveMessageDB(message, channelId, cb) {
         { upsert: true },
       )
     })
-    .then(() => cb())
+    .then(() => {
+      DailyChat.findOne({ _id: `${channelId}_${day}` }, 'messages -_id')
+        .select({ messages: { $elemMatch: { timestamp: `${message.timestamp}` } } })
+        .populate('messages.sender', 'first_name last_name image')
+        .exec((err, data) => {
+          if (err) console.log(err)
+          cb(data)
+        })
+    })
     .catch(error => console.log(error))
 }
 
