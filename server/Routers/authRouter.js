@@ -10,9 +10,10 @@ const {
   sendWelcomeMail,
   generateToken,
   me_get,
+  sendWelcomeMailSocial,
 } = require('../Controllers/authController')
 const { registerValidation, loginValidation } = require('../Service/authValidation')
-const { emailValidation } = require('../Service/userDataValidation')
+const { emailValidation } = require('../Service/authValidation')
 const { handleErrors } = require('../Utils/handleErrors.utils')
 const { validateToken } = require('../Middleware/permissions')
 const router = express.Router()
@@ -43,13 +44,15 @@ router.get('/auth/google', passport.init().authenticate('google', {
 
 //google auth callback
 router.get('/auth/google/callback', passport.init().authenticate('google', {
+  failureRedirect: "http://localhost:3000/auth/failure",
   session: false
 }),
-  generateToken, sendWelcomeMail
+  generateToken, sendWelcomeMailSocial
 )
 
 // facebook auth
 router.get('/auth/facebook', passport.init().authenticate('facebook', {
+  failureRedirect: "http://localhost:3000/auth/failure",
   scope: ['email', 'public_profile', 'user_location', 'user_gender', 'user_link', 'user_birthday', 'user_age_range', 'user_hometown']
 }));
 
@@ -57,7 +60,7 @@ router.get('/auth/facebook', passport.init().authenticate('facebook', {
 router.get('/auth/facebook/callback', passport.init().authenticate('facebook', {
   session: false
 }),
-  generateToken, sendWelcomeMail
+  generateToken, sendWelcomeMailSocial
 )
 
 //re send E-mail verify
