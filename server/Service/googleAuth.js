@@ -75,14 +75,14 @@ exports.verifyCallBackGoogle = async (accessToken, refreshToken, profile, done) 
                 const googleInfo = await requestMoreDataGoogle(accessToken);
                 let country = '';
                 let phone_number = '';
-                if (googleInfo.phoneNumbers) {
+                if (googleInfo.phoneNumbers && googleInfo.phoneNumbers.length) {
                     phone_number = googleInfo.phoneNumbers[0].canonicalForm;
                     country = getCountryFromNumber(phone_number);
                 }
                 Object.assign(user,
                     profile.id && { socialId: { ...user.socialId, google: profile['id'] } },
                     profile._json && { userInfo: { ...user.userInfo, googleInfo } },
-                    profile.photos && user.image == '' && { image: profile.photos[0].value },
+                    profile.photos && profile.photos.length && user.image == '' && { image: profile.photos[0].value },
                     phone_number && !user.phone_number && { phone_number },
                     country && !user.country && { country },
                     { verified: true }
