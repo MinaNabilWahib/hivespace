@@ -1,5 +1,5 @@
 const DailyChat = require('../Models/DailyChatSchema')
-const Channels = require('../Models/ChannelSchema')
+const { channel } = require('../Models/ChannelSchema')
 
 //current users in server.
 const users = []
@@ -51,16 +51,16 @@ function getMessagesDB(channelId, cb) {
 
 // save message to db
 function saveMessageDB(message, channelId, cb) {
-  console.log(message.timestamp)
+  // console.log(message.timestamp)
   let day = new Date(message.timestamp).setHours(0, 0, 0, 0)
-  console.log(day)
+  // console.log(day)
   day = new Date(day).toLocaleDateString()
 
-  console.log(day)
+  // console.log(day)
 
   DailyChat.findOneAndUpdate({ _id: `${channelId}_${day}` }, { $push: { messages: message } }, { upsert: true })
     .then(() => {
-      return Channels.findOneAndUpdate(
+      return channel.findOneAndUpdate(
         { _id: channelId },
         { $addToSet: { messages: `${channelId}_${day}` } },
         { upsert: true },
