@@ -47,51 +47,18 @@ exports.verifyCallBackGoogle = async (accessToken, refreshToken, profile, done) 
             >> find google id if exist return user
             >> if not exist update google id and userInfoGoogle
         if email not exist return new user */
-    try {
-        let user = await User.findOne({ email: profile.emails[0].value });
-        if (user) {
-            if (user.socialId.google) {
-                return done(null, { ...user.userData(), firstRegistration: false })
-            } else {
-                const googleInfo = await requestMoreDataGoogle(accessToken);
-                let country = '';
-                let phone_number = '';
-                if (googleInfo.phoneNumbers && googleInfo.phoneNumbers.length) {
-                    phone_number = googleInfo.phoneNumbers[0].canonicalForm;
-                    country = getCountryFromNumber(phone_number);
-                }
-                Object.assign(user,
-                    profile.id && { socialId: { ...user.socialId, google: profile['id'] } },
-                    profile._json && { userInfo: { ...user.userInfo, googleInfo } },
-                    profile.photos && profile.photos.length && user.image == '' && { image: profile.photos[0].value },
-                    phone_number && !user.phone_number && { phone_number },
-                    country && !user.country && { country },
-                    { verified: true }
-                );
-                user.save({ validateBeforeSave: false });
-                return done(null, { ...user.userData(), firstRegistration: false })
-            }
-        } else {
-            const googleInfo = await requestMoreDataGoogle(accessToken);
-            let country = '';
-            let phone_number = '';
-            if (googleInfo.phoneNumbers) {
-                phone_number = googleInfo.phoneNumbers[0].canonicalForm;
-                country = getCountryFromNumber(phone_number);
-            }
-            user = new User({
-                'socialId.google': profile.id,
-                first_name: profile.name.givenName,
-                last_name: profile.name.familyName,
-                email: profile.emails[0].value,
-                image: profile.photos[0].value || '',
-                phone_number: phone_number || '',
-                country: country || '',
-                verified: true,
-                'userInfo.googleInfo': { ...googleInfo }
-            })
-            user.save({ validateBeforeSave: false });
-            return done(null, { ...user.userData(), firstRegistration: true })
+  try {
+    let user = await User.findOne({ email: profile.emails[0].value })
+    if (user) {
+      if (user.socialId.google) {
+        return done(null, { ...user.userData(), firstRegistration: false })
+      } else {
+        const googleInfo = await requestMoreDataGoogle(accessToken)
+        let country = ''
+        let phone_number = ''
+        if (googleInfo.phoneNumbers) {
+          phone_number = googleInfo.phoneNumbers[0].canonicalForm
+          country = getCountryFromNumber(phone_number)
         }
         Object.assign(
           user,

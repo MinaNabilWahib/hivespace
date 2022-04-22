@@ -160,7 +160,6 @@ userSchema.methods.userData = function () {
     image: this.image,
     verified: this.verified,
     userInfo: this.userInfo,
-    workspaces: this.workspaces,
     date_created: this.date_created,
   }
 }

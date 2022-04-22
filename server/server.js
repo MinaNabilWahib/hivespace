@@ -9,15 +9,11 @@ const path = require('path')
 const authRouter = require('./Routers/authRouter')
 const socketio = require('socket.io')
 const socketioConfig = require('./Config/socketio.config')
-const listsRouter = require('./Routers/listsRouter')
-const cardsRouter = require('./Routers/cardsRouter')
-const passport = require('./Service/passport')
 const dailyChatRouter = require('./Routers/dailyChatRouter')
 
 //router variables
-const workspaceRouter = require('./Routers/workSpaceRoute')
-const channelRouter = require('./Routers/channelRouter')
-const commentRouter = require('./Routers/commentsRouter')
+// const workspaceRouter = require('./Routers/workSpaceRoute')
+
 //create server
 const app = express()
 //https
@@ -25,9 +21,6 @@ const https = require('https')
 const UserRouter = require('./Routers/userRouter')
 //secure headers
 app.use(helmet())
-
-//passport
-app.use(passport.init().initialize())
 //use morgan
 app.use(morgan(':method :url :status :http-version :response-time '))
 
@@ -70,15 +63,15 @@ const io = socketio(server, {
   cors: {},
   origin: '*',
 })
-socketioConfig(io);
+socketioConfig(io)
 
 //put routes
 app.use(authRouter)
 app.use(UserRouter)
-
+app.use(dailyChatRouter)
 //Not found MW
 app.use((req, res) => {
-  res.status(404).json({ page: 'Not Found' })
+  res.status(404).json({ data: 'Not Found' })
 })
 
 //Error MW
