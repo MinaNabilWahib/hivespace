@@ -31,8 +31,8 @@ const ChannelSchema = new mongoose.Schema({
   description: { type: String, maxlength: 200 },
   owner: { type: mongoose.Types.ObjectId, ref: 'User' },
   members: [{ type: mongoose.Types.ObjectId, ref: 'User' }],
-  messages: [{ type: mongoose.Types.ObjectId, ref: 'DailyChat' }],
-  board_lists: [{ type: mongoose.Types.ObjectId, ref: 'ListSchema' }],
+  messages: [{ type: String, ref: 'DailyChat' }],
+  board_lists: [ListSchema],
   date_created: { type: Date, required: true },
 })
 
