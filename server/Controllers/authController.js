@@ -31,14 +31,12 @@ exports.register_post = async (req, res, next) => {
 exports.login_post = async (req, res, next) => {
   try {
     const { user, password } = req.body
-
-    if (!user.password_hash) {
+    if (!user.verified) {
+      generateError(400, 'Your account not verified , please verify it')
+    } if (!user.password_hash) {
       generateError(403, 'you registered by social media , please, login with google or facebook account or reset your password')
     }
     if (!(await user.comparePassword(password))) generateError(403, 'Invalid Password')
-    if (!user.verified) {
-      generateError(403, 'Your account not verified , please verify it')
-    }
     req.token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' });
     req.user = user;
     next();
@@ -51,7 +49,7 @@ exports.login_post = async (req, res, next) => {
 exports.me_get = async (req, res, next) => {
   try {
     const user = req.user;
-    res.status(200).json({ user: user });
+    res.status(200).json({ data: user });
   } catch (error) {
     next(error);
   }
@@ -75,7 +73,7 @@ exports.sendVerificationEmail = async (req, res, next) => {
       <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Verify Your Email</a>
     </p>`
     await sendEmail(user.email, 'Verify Email', html)
-    res.status(201).json({ message: 'Registration successful ,An Email sent to your account please verify', })
+    res.status(201).json({ data: 'Registration successful ,An Email sent to your account please verify', token })
   } catch (error) {
     next(error)
   }
@@ -86,7 +84,7 @@ exports.emailVerify = async (req, res, next) => {
     const key = process.env.mail_key
     const user = await userVerify(req, key)
     await user.update({ verified: true })
-    res.status(200).json({ message: 'mail verified success' })
+    res.status(200).json('mail verified success')
   } catch (error) {
     next(error)
   }
@@ -100,7 +98,7 @@ exports.sendResetPassword = async (req, res, next) => {
     infoHash.id = user._id
     const key = eval(process.env.reset_key)
     const token = jwt.sign(infoHash, key, { expiresIn: '1h' })
-    const link = `${process.env.BASE_URL}/auth/password-reset/${user._id}/${token}`
+    const link = `${process.env.BASE_URL}/password/reset/${user._id}/${token}`
     const html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
       <p>A password reset was requested for this email address ${user.email}. If you requested this reset, click the link below to reset your password:</p>
       <p>
@@ -108,7 +106,7 @@ exports.sendResetPassword = async (req, res, next) => {
         <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Reset Your Password</a>
       </p>`
     await sendEmail(user.email, 'Reset Password', html)
-    res.status(201).json({ message: 'password rest successful ,An Email sent to your account please verify', })
+    res.status(201).json({ data: 'password rest successful ,An Email sent to your account please verify', token })
   } catch (error) {
     next(error)
   }
@@ -124,12 +122,7 @@ exports.passVerify = async (req, res, next) => {
     user.changePassword = true
     Object.assign(user, password && { password }, password && { passwordConfirm })
     await user.save()
-    let html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
-              <h4>Welcome</h4>
-              <p>Your password was changed successfully</p>`
-    await sendEmail(user.email, 'Reset Password', html);
-
-    res.status(201).json({ message: 'password changed successfully' })
+    res.status(201).json({ status: 'password changed successfully' })
   } catch (error) {
     next(error)
   }
@@ -173,28 +166,7 @@ exports.sendWelcomeMail = async (req, res, next) => {
     }
     await sendEmail(user.email, 'Welcome email', html);
 
-    res.status(201).json({ message: 'login successful', user: user.userData(), token })
-  } catch (error) {
-    next(error)
-  }
-} // send welcome mail after login
-
-exports.sendWelcomeMailSocial = async (req, res, next) => {
-  try {
-    const user = req.user;
-    const token = req.token;
-    let html = '';
-    if (user.firstRegistration) {
-      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
-              <h4>Welcome</h4>
-              <p>Thanks for signing up with us to use HiveSpace</p>`
-    } else {
-      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
-              <h4>Welcome Back </h4>
-              <p>Make yourself at home</p>`
-    }
-    await sendEmail(user.email, 'Welcome email', html);
-    res.status(301).redirect("http://localhost:3000/auth/socialVerify/" + token)
+    res.status(201).json({ status: 'login successful', data: user, token })
   } catch (error) {
     next(error)
   }
