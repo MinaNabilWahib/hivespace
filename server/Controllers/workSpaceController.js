@@ -5,16 +5,26 @@ const user = require('../Models/UserSchema')
 
 exports.getWorkSpace = async (request, response, next) => {
   try {
-    let data = await workspace.find({ owner: request.params.userId })
+    let data = await workspace
+      .find({ $or: [{ owner: request.params.userId }, { members: request.params.userId }] })
+      .populate({
+        path: 'channels',
+        populate: [
+          {
+            path: 'members',
+          },
+          {
+            path: 'owner',
+          },
+        ],
+      })
+      .populate('owner', '_id email')
+      .populate('members', '_id email')
+
     if (data.length !== 0) {
       response.status(200).json({ data })
     } else {
-      let data = await workspace.find({ members: request.params.userId })
-      if (data.length !== 0) {
-        response.status(200).json({ data })
-      } else {
-        throw new Error('no workspaces')
-      }
+      throw new Error('no workspaces')
     }
   } catch (err) {
     next(err)

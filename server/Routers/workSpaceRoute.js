@@ -11,10 +11,7 @@ router.route('/createWorkspace/:userId').get(
 
 router
   .route('/createWorkspace')
-  // .get(
-  // validateToken,
-  //   controller.getWorkSpace,
-  // )
+
   .post(
     [
       body('title').isString().withMessage('workspace title must be string'),

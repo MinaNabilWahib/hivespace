@@ -36,7 +36,9 @@ const ChannelSchema = new mongoose.Schema({
   date_created: { type: Date, required: true },
 })
 
-module.exports = mongoose.model('Channel', ChannelSchema)
+module.exports = {
+  channel: mongoose.model('Channel', ChannelSchema),
+}
 
 /**Updates:
  * 1- description is not required
