@@ -12,14 +12,16 @@ exports.getWorkSpace = async (request, response, next) => {
         populate: [
           {
             path: 'members',
+            select: '_id email first_name last_name image',
           },
           {
             path: 'owner',
+            select: '_id email first_name last_name image',
           },
         ],
       })
-      .populate('owner', '_id email')
-      .populate('members', '_id email')
+      .populate('owner', '_id email first_name last_name image')
+      .populate('members', '_id email first_name last_name image')
 
     if (data.length !== 0) {
       response.status(200).json({ data })
