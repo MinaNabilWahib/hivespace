@@ -13,7 +13,7 @@ class Connection {
     socket.on('joinRoom', connectionInfo => this.joinRoom(connectionInfo))
     socket.on('message', text => this.handleMessage(text))
     socket.on('disconnect', () => this.disconnect())
-    socket.on('getMessages', channelInfo => this.getMessages(channelInfo))
+    socket.on('getMessages', channelId => this.getMessages(channelId))
     socket.on('connect_error', err => {
       console.log(`Connnection error due to ${err.message}`)
     })
@@ -39,13 +39,15 @@ class Connection {
     })
   }
 
-  getMessages({ channelId, day }) {
-    getMessagesDB(channelId, day, data => {
+  getMessages(channelId) {
+    getMessagesDB(channelId, data => {
       // this.socket.emit('message', data)
-      if (data && data.messages.length > 0) {
-        data.messages.forEach(message => {
-          // console.log(message)
-          this.socket.emit('message', message)
+      if (data && data.length > 0) {
+        data.forEach(day => {
+          console.log(day)
+          day.messages.forEach(message => {
+            this.socket.emit('message', message)
+          })
         })
       } else {
         this.socket.emit('message', null)

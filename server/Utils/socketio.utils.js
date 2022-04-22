@@ -39,8 +39,9 @@ function formatMessage(userId, text) {
 }
 
 //get messages from db
-function getMessagesDB(channelId, day, cb) {
-  DailyChat.findOne({ _id: `${channelId}_${day}` })
+function getMessagesDB(channelId, cb) {
+  var regexp = new RegExp('^' + channelId)
+  DailyChat.find({ _id: regexp })
     .populate('messages.sender', 'first_name last_name image')
     .exec((err, data) => {
       if (err) console.log(err)
