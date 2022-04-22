@@ -29,6 +29,24 @@ exports.loginValidation = [
     ),
 ] // login validation
 
+exports.emailValidation = [
+  body('email')
+    .trim()
+    .notEmpty()
+    .withMessage('Email required')
+    .isEmail()
+    .withMessage('Invalid email address!')
+    .custom(async (value, { req }) => {
+      const { email } = req.body
+      const user = await User.findOne({ email })
+      if (!user) {
+        generateError(400, 'Invalid email')
+      }
+      req.user = user.userData()
+      return true
+    }),
+] // login validation
+
 exports.registerValidation = [
   body('first_name')
     .trim()

@@ -2,26 +2,36 @@ const express = require('express')
 const router = express.Router()
 const { body } = require('express-validator')
 const controller = require('../Controllers/workSpaceController')
+const { validateToken } = require('../Middleware/permissions')
 
 router
-  .route('/workspace')
-  .get(controller.getWorkSpace)
+  .route('/createWorkspace')
+  .get(validateToken, controller.getWorkSpace)
   .post(
     [
       body('title').isString().withMessage('workspace title must be string'),
       body('description').isString().withMessage('workspace description must be a string'),
       body('members').isArray().withMessage('workspace members must be an array'),
+      body('owner').notEmpty().withMessage('workspace must have an owner'),
     ],
-    controller.addWorkSpace,
+    validateToken,
+    controller.createWorkspace,
   )
   .put(
     [
       body('title').isString().withMessage('workspace name must be string'),
       body('description').isString().withMessage('workspace description must be a string'),
       body('members').isArray().withMessage('workspace members must be an array'),
+      body('owner').notEmpty().withMessage('workspace must have an owner'),
     ],
+    validateToken,
     controller.updateWorkSpace,
   )
-  .delete(controller.deleteWorkSpace)
+  .delete(validateToken, controller.deleteWorkSpace)
+
+router
+  .route('/updateWorkspaceMembers')
+  .put(validateToken, controller.addWorkspaceMember)
+  .delete(validateToken, controller.deleteWorkspaceMember)
 
 module.exports = router
