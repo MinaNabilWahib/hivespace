@@ -4,10 +4,7 @@ const { body } = require('express-validator')
 const controller = require('../Controllers/workSpaceController')
 const { validateToken } = require('../Middleware/permissions')
 
-router.route('/createWorkspace/:userId').get(
-  // validateToken,
-  controller.getWorkSpace,
-)
+router.route('/createWorkspace/:userId').get(validateToken, controller.getWorkSpace)
 
 router
   .route('/createWorkspace')
