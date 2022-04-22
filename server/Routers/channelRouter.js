@@ -28,7 +28,8 @@ router
     validateToken,
     controller.updatechannel,
   )
-  .delete(validateToken, controller.deletechannel)
+
+router.route('/channel/:id').delete(validateToken, controller.deletechannel)
 
 router
   .route('/updateChannelinWorkspace')

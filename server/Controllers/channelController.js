@@ -115,9 +115,9 @@ exports.updatechannel = async (request, response, next) => {
 
 exports.deletechannel = async (request, response, next) => {
   try {
-    await workspace.updateOne({ channels: request.body.channelId }, { $pull: { channels: request.body.channelId } })
+    await workspace.updateOne({ channels: request.params.id }, { $pull: { channels: request.params.id } })
 
-    let data = await channel.deleteOne({ _id: request.body.channelId })
+    let data = await channel.deleteOne({ _id: request.params.id })
     if (data.deletedCount === 0) {
       throw new Error("channel isn't fount")
     } else {

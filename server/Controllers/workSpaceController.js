@@ -6,7 +6,7 @@ const user = require('../Models/UserSchema')
 exports.getWorkSpace = async (request, response, next) => {
   try {
     let data = await workspace
-      .find({ $or: [{ owner: request.params.userId }, { members: request.params.userId }] })
+      .find({ $or: [{ owner: request.params.id }, { members: request.params.id }] })
       .populate({
         path: 'channels',
         populate: [
@@ -130,15 +130,15 @@ exports.updateWorkSpace = async (request, response, next) => {
 
 exports.deleteWorkSpace = async (request, response, next) => {
   try {
-    let thisWorkspace = await workspace.findOne({ _id: request.body.workspace })
+    let thisWorkspace = await workspace.findOne({ _id: request.params.id })
     for (const singleChannel of thisWorkspace.channels) {
       await channel.deleteOne({ _id: singleChannel })
     }
 
-    let data = await workspace.deleteOne({ _id: request.body.workspace })
+    let data = await workspace.deleteOne({ _id: request.params.id })
     if (data.deletedCount == 0) throw new Error("workspace isn't fount")
     else response.status(201).json({ message: 'workspace has successfully deleted' })
-    await user.updateMany({ workspaces: request.body.workspace }, { $pull: { workspaces: request.body.workspace } })
+    await user.updateMany({ workspaces: request.params.id }, { $pull: { workspaces: request.params.id } })
   } catch (err) {
     next(err)
   }

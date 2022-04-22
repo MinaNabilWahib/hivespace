@@ -4,7 +4,10 @@ const { body } = require('express-validator')
 const controller = require('../Controllers/workSpaceController')
 const { validateToken } = require('../Middleware/permissions')
 
-router.route('/createWorkspace/:userId').get(validateToken, controller.getWorkSpace)
+router
+  .route('/createWorkspace/:id')
+  .get(validateToken, controller.getWorkSpace)
+  .delete(validateToken, controller.deleteWorkSpace)
 
 router
   .route('/createWorkspace')
@@ -29,7 +32,6 @@ router
     validateToken,
     controller.updateWorkSpace,
   )
-  .delete(validateToken, controller.deleteWorkSpace)
 
 router
   .route('/updateWorkspaceMembers')
