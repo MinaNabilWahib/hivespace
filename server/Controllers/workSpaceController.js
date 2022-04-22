@@ -3,15 +3,22 @@ const workspace = require('../Models/WorkspaceSchema')
 const channel = require('../Models/ChannelSchema').channel
 const user = require('../Models/UserSchema')
 
-exports.getWorkSpace = (request, response, next) => {
-  workspace
-    .find()
-    .then(data => {
-      response.status(200).json({ message: 'Your WorkSpaces', data: data })
-    })
-    .catch(err => {
-      next(err)
-    })
+exports.getWorkSpace = async (request, response, next) => {
+  try {
+    let data = await workspace.find({ owner: request.params.userId })
+    if (data.length !== 0) {
+      response.status(200).json({ data })
+    } else {
+      let data = await workspace.find({ members: request.params.userId })
+      if (data.length !== 0) {
+        response.status(200).json({ data })
+      } else {
+        throw new Error('no workspaces')
+      }
+    }
+  } catch (err) {
+    next(err)
+  }
 }
 
 exports.createWorkspace = async (request, response, next) => {
