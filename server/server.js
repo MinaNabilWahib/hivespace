@@ -12,8 +12,6 @@ const socketioConfig = require('./Config/socketio.config')
 const listsRouter = require('./Routers/listsRouter')
 const cardsRouter = require('./Routers/cardsRouter')
 const passport = require('./Service/passport')
-const dailyChatRouter = require('./Routers/dailyChatRouter')
-
 //router variables
 const workspaceRouter = require('./Routers/workSpaceRoute')
 const channelRouter = require('./Routers/channelRouter')
@@ -75,6 +73,11 @@ socketioConfig(io);
 //put routes
 app.use(authRouter)
 app.use(UserRouter)
+app.use(listsRouter)
+app.use(cardsRouter)
+app.use(channelRouter)
+app.use(workspaceRouter)
+app.use(commentRouter)
 
 //Not found MW
 app.use((req, res) => {

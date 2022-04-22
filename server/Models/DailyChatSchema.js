@@ -1,15 +1,15 @@
 const mongoose = require('mongoose')
 
-//_id === channelID_day(YYYY-MM-DD)
 const DailyChatSchema = new mongoose.Schema({
-  _id: { type: String, required: true },
-  messages: [
+  message: [
     {
       data: { type: String },
-      sender: { type: mongoose.Types.ObjectId, ref: 'User' },
-      timestamp: { type: String },
+      sender: { type: mongoose.Types.ObjectId },
+      reciever: { type: mongoose.Types.ObjectId },
+      createdAt: { type: Date },
     },
   ],
+  createdAt: { type: Date },
 })
 
 module.exports = mongoose.model('DailyChat', DailyChatSchema)

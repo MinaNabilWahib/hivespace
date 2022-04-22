@@ -1,12 +1,9 @@
-const DailyChat = require('../Models/DailyChatSchema')
-const Channels = require('../Models/ChannelSchema')
-
 //current users in server.
 const users = []
 
 // Join user to chat
-function userJoin(socketId, userId, room) {
-  const user = { socketId, userId, room }
+function userJoin(socketId, userId, username, room) {
+  const user = { socketId, userId, username, room }
   users.push(user)
   return user
 }
@@ -30,51 +27,13 @@ function getRoomUsers(room) {
   return users.filter(user => user.room === room)
 }
 
-function formatMessage(userId, text) {
+function formatMessage(userId, username, text) {
   return {
-    sender: userId,
+    userId,
+    username,
     data: text,
-    timestamp: new Date().getTime(),
+    date_created: new Date().getTime(),
   }
-}
-
-//get messages from db
-function getMessagesDB(channelId, day, cb) {
-  DailyChat.findOne({ _id: `${channelId}_${day}` })
-    .populate('messages.sender', 'first_name last_name image')
-    .exec((err, data) => {
-      if (err) console.log(err)
-      cb(data)
-    })
-}
-
-// save message to db
-function saveMessageDB(message, channelId, cb) {
-  console.log(message.timestamp)
-  let day = new Date(message.timestamp).setHours(0, 0, 0, 0)
-  console.log(day)
-  day = new Date(day).toLocaleDateString()
-
-  console.log(day)
-
-  DailyChat.findOneAndUpdate({ _id: `${channelId}_${day}` }, { $push: { messages: message } }, { upsert: true })
-    .then(() => {
-      return Channels.findOneAndUpdate(
-        { _id: channelId },
-        { $addToSet: { messages: `${channelId}_${day}` } },
-        { upsert: true },
-      )
-    })
-    .then(() => {
-      DailyChat.findOne({ _id: `${channelId}_${day}` }, 'messages -_id')
-        .select({ messages: { $elemMatch: { timestamp: `${message.timestamp}` } } })
-        .populate('messages.sender', 'first_name last_name image')
-        .exec((err, data) => {
-          if (err) console.log(err)
-          cb(data)
-        })
-    })
-    .catch(error => console.log(error))
 }
 
 module.exports = {
@@ -83,6 +42,4 @@ module.exports = {
   userLeave,
   getRoomUsers,
   formatMessage,
-  saveMessageDB,
-  getMessagesDB,
 }
