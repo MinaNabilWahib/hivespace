@@ -23,11 +23,11 @@ exports.getWorkSpace = async (request, response, next) => {
       .populate('owner', '_id email first_name last_name image')
       .populate('members', '_id email first_name last_name image')
 
-    if (data.length !== 0) {
-      response.status(200).json({ data })
-    } else {
-      throw new Error('no workspaces')
-    }
+    // if (data.length !== 0) {
+    response.status(200).json({ data })
+    // } else {
+    // throw new Error('no workspaces')
+    // }
   } catch (err) {
     next(err)
   }
@@ -53,18 +53,7 @@ exports.createWorkspace = async (request, response, next) => {
       }
     }
 
-    let object = new workspace({
-      title: request.body.title,
-      description: request.body.description,
-      members: users,
-      owner: request.body.owner,
-      date_created: new Date(),
-    })
-
-    let data = await object.save()
-
     let channelObject = new channel({
-      workspaceId: await data._id,
       title: 'General Channel',
       description: 'Welcome to your First Channel you can add more channels by clicking on Add channel button',
       members: users,
@@ -73,12 +62,40 @@ exports.createWorkspace = async (request, response, next) => {
     })
     await channelObject.save()
 
+    let object = new workspace({
+      title: request.body.title,
+      description: request.body.description,
+      members: users,
+      owner: request.body.owner,
+      channels: [channelObject._id],
+      date_created: new Date(),
+    })
+
+    let data = await object.save()
+
     await user.updateOne({ _id: request.body.owner }, { $push: { workspaces: data._id } })
     for (const member of users) {
       await user.updateOne({ _id: member }, { $push: { workspaces: data._id } })
     }
-    await workspace.updateOne({ _id: data._id }, { $push: { channels: channelObject._id } })
-    response.json({ data })
+    // await workspace.updateOne({ _id: data._id }, { $push: { channels: channelObject._id } })
+    let final = await workspace
+      .findOne({ _id: data._id })
+      .populate({
+        path: 'channels',
+        populate: [
+          {
+            path: 'members',
+            select: '_id email first_name last_name image',
+          },
+          {
+            path: 'owner',
+            select: '_id email first_name last_name image',
+          },
+        ],
+      })
+      .populate('owner', '_id email first_name last_name image')
+      .populate('members', '_id email first_name last_name image')
+    response.json({ final })
   } catch (err) {
     next(err)
   }
