@@ -1,0 +1,6036 @@
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+ DB connected ....
+server running on 8000
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+ DB connected ....
+server running on 8000
+OPTIONS /me 200 1.1 3.717 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650679390,
+  exp: 1650938590
+}
+GET /me 200 1.1 4.316 
+GET /auth/google 302 1.1 2.580 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWjqztsQ67Q429pny71Im2yGlxVISEN0SE97qQcJujp4Sgaauj-vcW4UlbGDGOGhsA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=0&prompt=consent 302 1.1 2526.941 
+OPTIONS /me 200 1.1 0.425 
+OPTIONS /me 200 1.1 0.349 
+OPTIONS /me 200 1.1 0.365 
+OPTIONS /me 200 1.1 0.252 
+OPTIONS /me 200 1.1 0.314 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.998 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.753 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.713 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.592 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.666 
+OPTIONS /createWorkspace/6262fcbe09e71701edc0021c 200 1.1 1.054 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /createWorkspace/6262fcbe09e71701edc0021c 500 1.1 9.483 
+OPTIONS /me 200 1.1 6.742 
+OPTIONS /me 200 1.1 1.003 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 11.038 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650693560,
+  exp: 1650952760
+}
+GET /me 200 1.1 0.925 
+GET /auth/google 302 1.1 9.075 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWhAC_Xt_iC1KV_az-vjILGxZ4J9L65OPP1booCRokEUPIL65Q56CTO7Zsh_U6YQ6w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=0&prompt=consent 302 1.1 2440.701 
+OPTIONS /me 200 1.1 0.299 
+OPTIONS /me 200 1.1 0.248 
+OPTIONS /me 200 1.1 0.260 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /me 200 1.1 0.969 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /me 200 1.1 0.792 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+OPTIONS /me 200 1.1 0.224 
+GET /me 200 1.1 0.561 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /me 200 1.1 1.179 
+OPTIONS /createWorkspace/6262fcbe09e71701edc0021c 200 1.1 0.943 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /createWorkspace/6262fcbe09e71701edc0021c 500 1.1 4.110 
+OPTIONS /me 200 1.1 0.216 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /me 200 1.1 1.060 
+OPTIONS /createWorkspace/6262fcbe09e71701edc0021c 200 1.1 0.340 
+{
+  _id: '6262fcbe09e71701edc0021c',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'mohamed sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhMN2hGbjFwcjVNc29WQWlFdW9lSmd6Y1NkWUtVLWVSMm5VNHdpRzQ1dk93SEM3cHQwVk5TeHhVbzFWUTdYOGVUcDRpc0VEQ3JPcHNSN3hjQmVDOWVXZADFUZA3E4RnJfeXo4TmhibmMzcGNEb3h6/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-22T19:06:38.872Z',
+  firstRegistration: false,
+  iat: 1650694020,
+  exp: 1650953220
+}
+GET /createWorkspace/6262fcbe09e71701edc0021c 500 1.1 3.166 
+OPTIONS /register 200 1.1 0.310 
+Result {
+  formatter: [Function: formatter],
+  errors: [
+    {
+      value: 'moha.sayed6064@gmail.com',
+      msg: 'email is already exists',
+      param: 'email',
+      location: 'body'
+    }
+  ]
+}
+POST /register 422 1.1 47.805 
+OPTIONS /register 200 1.1 0.205 
+Result { formatter: [Function: formatter], errors: [] }
++201005833382 +201005833382
+{
+  _id: new ObjectId("626399a012ac8ce90bd54bef"),
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: false,
+  userInfo: {},
+  workspaces: [],
+  date_created: 2022-04-23T06:16:00.467Z
+}
+email sent successfully
+POST /register 201 1.1 1970.545 
+(node:49028) [MONGODB DRIVER] Warning: collection.update is deprecated. Use updateOne, updateMany, or bulkWrite instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+GET /user/verify/626399a012ac8ce90bd54bef/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5OWEwMTJhYzhjZTkwYmQ1NGJlZiIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6ZmFsc2UsInVzZXJJbmZvIjp7fSwid29ya3NwYWNlcyI6W10sImRhdGVfY3JlYXRlZCI6IjIwMjItMDQtMjNUMDY6MTY6MDAuNDY3WiJ9LCJpZCI6IjYyNjM5OWEwMTJhYzhjZTkwYmQ1NGJlZiIsImlhdCI6MTY1MDY5NDU2MCwiZXhwIjoxNjUwNzgwOTYwfQ.SvPlUKEUIV_II6hs8kemAiSAplqVFInWZG9RtSgYQdE 200 1.1 19.128 
+OPTIONS /register 200 1.1 0.207 
+Result {
+  formatter: [Function: formatter],
+  errors: [
+    {
+      value: 'moha.sayed6064@gmail.com',
+      msg: 'email is already exists',
+      param: 'email',
+      location: 'body'
+    }
+  ]
+}
+POST /register 422 1.1 3.817 
+OPTIONS /register 200 1.1 0.232 
+Result { formatter: [Function: formatter], errors: [] }
++201005833382 +201005833382
+{
+  _id: new ObjectId("62639adb12ac8ce90bd54bf5"),
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: false,
+  userInfo: {},
+  workspaces: [],
+  date_created: 2022-04-23T06:21:15.573Z
+}
+email sent successfully
+POST /register 201 1.1 1757.988 
+OPTIONS /login 200 1.1 0.244 
+Result { formatter: [Function: formatter], errors: [] }
+POST /login 403 1.1 53.682 
+OPTIONS /verifyEmail 200 1.1 0.178 
+Result { formatter: [Function: formatter], errors: [] }
+{
+  _id: new ObjectId("62639adb12ac8ce90bd54bf5"),
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: false,
+  userInfo: {},
+  workspaces: [],
+  date_created: 2022-04-23T06:21:15.573Z
+}
+email sent successfully
+POST /verifyEmail 201 1.1 1555.861 
+GET /user/verify/62639adb12ac8ce90bd54bf5/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6ZmFsc2UsInVzZXJJbmZvIjp7fSwid29ya3NwYWNlcyI6W10sImRhdGVfY3JlYXRlZCI6IjIwMjItMDQtMjNUMDY6MjE6MTUuNTczWiJ9LCJpZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsImlhdCI6MTY1MDY5NDkzNSwiZXhwIjoxNjUwNzgxMzM1fQ.36HpVs4ZO5hRPi07Z18nB8n7g456ES6YA42uqycqvNQ 200 1.1 8.522 
+OPTIONS /login 200 1.1 0.188 
+Result { formatter: [Function: formatter], errors: [] }
+email sent successfully
+POST /login 201 1.1 1574.852 
+OPTIONS /me 200 1.1 0.447 
+OPTIONS /me 200 1.1 1.012 
+OPTIONS /me 200 1.1 0.723 
+OPTIONS /me 200 1.1 0.267 
+OPTIONS /me 200 1.1 0.260 
+OPTIONS /me 200 1.1 0.192 
+OPTIONS /me 200 1.1 0.253 
+OPTIONS /me 200 1.1 0.147 
+OPTIONS /me 200 1.1 0.193 
+OPTIONS /me 200 1.1 0.467 
+OPTIONS /me 200 1.1 0.213 
+OPTIONS /me 200 1.1 0.205 
+OPTIONS /me 200 1.1 0.171 
+OPTIONS /me 200 1.1 0.127 
+OPTIONS /me 200 1.1 0.124 
+OPTIONS /me 200 1.1 6.514 
+OPTIONS /me 200 1.1 0.108 
+OPTIONS /me 200 1.1 0.107 
+OPTIONS /me 200 1.1 0.190 
+OPTIONS /me 200 1.1 0.210 
+OPTIONS /me 200 1.1 0.180 
+OPTIONS /me 200 1.1 0.218 
+OPTIONS /me 200 1.1 0.822 
+OPTIONS /me 200 1.1 0.241 
+OPTIONS /me 200 1.1 1.334 
+OPTIONS /me 200 1.1 0.391 
+OPTIONS /me 200 1.1 0.363 
+OPTIONS /me 200 1.1 0.342 
+OPTIONS /me 200 1.1 0.446 
+OPTIONS /me 200 1.1 0.319 
+OPTIONS /me 200 1.1 0.346 
+OPTIONS /me 200 1.1 0.165 
+OPTIONS /me 200 1.1 0.370 
+OPTIONS /me 200 1.1 0.453 
+OPTIONS /me 200 1.1 0.160 
+OPTIONS /me 200 1.1 0.132 
+OPTIONS /me 200 1.1 0.209 
+OPTIONS /me 200 1.1 0.483 
+OPTIONS /me 200 1.1 1.023 
+OPTIONS /me 200 1.1 0.266 
+OPTIONS /me 200 1.1 0.563 
+OPTIONS /me 200 1.1 0.479 
+OPTIONS /me 200 1.1 0.433 
+OPTIONS /me 200 1.1 0.208 
+OPTIONS /me 200 1.1 0.212 
+OPTIONS /me 200 1.1 0.220 
+OPTIONS /me 200 1.1 0.224 
+OPTIONS /me 200 1.1 0.257 
+OPTIONS /me 200 1.1 0.413 
+OPTIONS /me 200 1.1 0.203 
+OPTIONS /me 200 1.1 0.223 
+OPTIONS /me 200 1.1 0.253 
+OPTIONS /me 200 1.1 0.203 
+OPTIONS /me 200 1.1 0.178 
+OPTIONS /me 200 1.1 0.243 
+OPTIONS /me 200 1.1 0.181 
+OPTIONS /me 200 1.1 0.270 
+OPTIONS /me 200 1.1 0.256 
+OPTIONS /me 200 1.1 0.971 
+OPTIONS /me 200 1.1 0.922 
+OPTIONS /me 200 1.1 0.215 
+OPTIONS /me 200 1.1 0.686 
+OPTIONS /me 200 1.1 0.321 
+OPTIONS /me 200 1.1 0.417 
+OPTIONS /me 200 1.1 0.359 
+OPTIONS /me 200 1.1 0.333 
+OPTIONS /me 200 1.1 0.375 
+OPTIONS /me 200 1.1 0.374 
+OPTIONS /me 200 1.1 0.406 
+OPTIONS /me 200 1.1 0.506 
+OPTIONS /me 200 1.1 0.608 
+OPTIONS /me 200 1.1 0.477 
+OPTIONS /me 200 1.1 0.370 
+OPTIONS /me 200 1.1 0.312 
+OPTIONS /me 200 1.1 0.241 
+OPTIONS /me 200 1.1 0.320 
+OPTIONS /me 200 1.1 0.425 
+OPTIONS /me 200 1.1 0.256 
+OPTIONS /me 200 1.1 0.319 
+OPTIONS /me 200 1.1 0.138 
+OPTIONS /me 200 1.1 0.473 
+OPTIONS /me 200 1.1 0.303 
+OPTIONS /me 200 1.1 0.772 
+OPTIONS /me 200 1.1 0.224 
+OPTIONS /me 200 1.1 0.325 
+OPTIONS /me 200 1.1 0.158 
+OPTIONS /me 200 1.1 0.210 
+OPTIONS /me 200 1.1 0.247 
+OPTIONS /me 200 1.1 0.201 
+OPTIONS /me 200 1.1 0.149 
+OPTIONS /me 200 1.1 0.170 
+OPTIONS /me 200 1.1 0.310 
+OPTIONS /me 200 1.1 0.211 
+OPTIONS /me 200 1.1 0.282 
+OPTIONS /me 200 1.1 0.244 
+OPTIONS /me 200 1.1 0.580 
+OPTIONS /me 200 1.1 0.233 
+OPTIONS /me 200 1.1 0.284 
+OPTIONS /me 200 1.1 0.151 
+OPTIONS /me 200 1.1 0.161 
+OPTIONS /me 200 1.1 0.140 
+OPTIONS /me 200 1.1 0.130 
+OPTIONS /me 200 1.1 0.112 
+OPTIONS /me 200 1.1 0.114 
+OPTIONS /me 200 1.1 0.190 
+OPTIONS /me 200 1.1 0.129 
+OPTIONS /me 200 1.1 0.116 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.528 
+OPTIONS /me 200 1.1 0.127 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 6.618 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.533 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.536 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.825 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.858 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.452 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.160 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.843 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.774 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.833 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.751 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.534 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.666 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.523 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.656 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.791 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.768 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.572 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.727 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.035 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.234 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.598 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.460 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.472 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.795 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.186 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.827 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.623 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.579 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.519 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.131 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.466 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.422 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.408 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.319 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.406 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.737 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.388 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.417 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.539 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.368 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.411 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.451 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.354 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.555 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.678 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.373 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.381 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.349 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.358 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.322 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.557 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.407 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.469 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.864 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.452 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.521 
+GET /me 200 1.1 0.486 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.626 
+GET /me 200 1.1 0.816 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.538 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.946 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.574 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.613 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.698 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.625 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.494 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.805 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.189 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.490 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.461 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.352 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.495 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.534 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.470 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.298 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.627 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.780 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.741 
+GET /me 200 1.1 0.515 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.436 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.591 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.422 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.161 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 3.345 
+GET /me 200 1.1 0.970 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.415 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.675 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.712 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.495 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.619 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.444 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.460 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.677 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.544 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.545 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 1.204 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.709 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 2.794 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.886 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.490 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.404 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.588 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 2.138 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.343 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.383 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.343 
+OPTIONS /createWorkspace/62639adb12ac8ce90bd54bf5 200 1.1 0.236 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /createWorkspace/62639adb12ac8ce90bd54bf5 500 1.1 3.764 
+OPTIONS /me 200 1.1 0.244 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650694971,
+  exp: 1650954171
+}
+GET /me 200 1.1 0.634 
+OPTIONS /password/reset 200 1.1 0.307 
+Result { formatter: [Function: formatter], errors: [] }
+email sent successfully
+POST /password/reset 201 1.1 1740.483 
+OPTIONS /password/reset/62639adb12ac8ce90bd54bf5/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnt9LCJ3b3Jrc3BhY2VzIjpbXSwiZGF0ZV9jcmVhdGVkIjoiMjAyMi0wNC0yM1QwNjoyMToxNS41NzNaIn0sImlkIjoiNjI2MzlhZGIxMmFjOGNlOTBiZDU0YmY1IiwiaWF0IjoxNjUwNjk1MDIwLCJleHAiOjE2NTA2OTg2MjB9.VqcJjCmoV2ScVMRWQz2QAxVr8uN_XMKvrZEBvm2Slh8 200 1.1 0.182 
+POST /password/reset/62639adb12ac8ce90bd54bf5/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnt9LCJ3b3Jrc3BhY2VzIjpbXSwiZGF0ZV9jcmVhdGVkIjoiMjAyMi0wNC0yM1QwNjoyMToxNS41NzNaIn0sImlkIjoiNjI2MzlhZGIxMmFjOGNlOTBiZDU0YmY1IiwiaWF0IjoxNjUwNjk1MDIwLCJleHAiOjE2NTA2OTg2MjB9.VqcJjCmoV2ScVMRWQz2QAxVr8uN_XMKvrZEBvm2Slh8 403 1.1 55.226 
+OPTIONS /password/reset/62639adb12ac8ce90bd54bf5/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnt9LCJ3b3Jrc3BhY2VzIjpbXSwiZGF0ZV9jcmVhdGVkIjoiMjAyMi0wNC0yM1QwNjoyMToxNS41NzNaIn0sImlkIjoiNjI2MzlhZGIxMmFjOGNlOTBiZDU0YmY1IiwiaWF0IjoxNjUwNjk1MDIwLCJleHAiOjE2NTA2OTg2MjB9.VqcJjCmoV2ScVMRWQz2QAxVr8uN_XMKvrZEBvm2Slh8 200 1.1 0.240 
+email sent successfully
+POST /password/reset/62639adb12ac8ce90bd54bf5/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YWRiMTJhYzhjZTkwYmQ1NGJmNSIsInNvY2lhbElkIjp7fSwiZnVsbE5hbWUiOiJNb2hhbWVkIFNheWVkIiwiZW1haWwiOiJtb2hhLnNheWVkNjA2NEBnbWFpbC5jb20iLCJiaW8iOiJBZGQgeW91ciBCaW8iLCJwaG9uZV9udW1iZXIiOiIrMjAxMDA1ODMzMzgyIiwiY291bnRyeSI6IkVneXB0IiwiaW1hZ2UiOiIiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnt9LCJ3b3Jrc3BhY2VzIjpbXSwiZGF0ZV9jcmVhdGVkIjoiMjAyMi0wNC0yM1QwNjoyMToxNS41NzNaIn0sImlkIjoiNjI2MzlhZGIxMmFjOGNlOTBiZDU0YmY1IiwiaWF0IjoxNjUwNjk1MDIwLCJleHAiOjE2NTA2OTg2MjB9.VqcJjCmoV2ScVMRWQz2QAxVr8uN_XMKvrZEBvm2Slh8 201 1.1 1758.013 
+OPTIONS /login 200 1.1 0.242 
+Result { formatter: [Function: formatter], errors: [] }
+POST /login 403 1.1 56.899 
+Result { formatter: [Function: formatter], errors: [] }
+email sent successfully
+POST /login 201 1.1 1549.874 
+OPTIONS /me 200 1.1 0.278 
+OPTIONS /me 200 1.1 0.265 
+OPTIONS /me 200 1.1 0.613 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650695090,
+  exp: 1650954290
+}
+GET /me 200 1.1 1.893 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650695090,
+  exp: 1650954290
+}
+GET /me 200 1.1 0.585 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: {},
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: '',
+  verified: true,
+  userInfo: {},
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  iat: 1650695090,
+  exp: 1650954290
+}
+GET /me 200 1.1 0.516 
+GET /auth/google 302 1.1 5.618 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWgysDvn0mhVCBSzwdQ7g5H-c2lMtJ6ZnhDDQUa61NdzTtIyNs2yZtCymgrgq8PRwQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=0&prompt=consent 302 1.1 2440.703 
+OPTIONS /me 200 1.1 0.508 
+OPTIONS /me 200 1.1 0.520 
+OPTIONS /me 200 1.1 0.296 
+OPTIONS /me 200 1.1 0.487 
+OPTIONS /me 200 1.1 0.379 
+OPTIONS /me 200 1.1 0.308 
+OPTIONS /me 200 1.1 0.247 
+OPTIONS /me 200 1.1 0.322 
+OPTIONS /me 200 1.1 0.185 
+OPTIONS /me 200 1.1 0.202 
+OPTIONS /me 200 1.1 0.173 
+OPTIONS /me 200 1.1 0.175 
+OPTIONS /me 200 1.1 0.135 
+OPTIONS /me 200 1.1 0.154 
+OPTIONS /me 200 1.1 0.132 
+OPTIONS /me 200 1.1 0.397 
+OPTIONS /me 200 1.1 0.253 
+OPTIONS /me 200 1.1 0.176 
+OPTIONS /me 200 1.1 0.144 
+OPTIONS /me 200 1.1 0.148 
+OPTIONS /me 200 1.1 0.118 
+OPTIONS /me 200 1.1 0.168 
+OPTIONS /me 200 1.1 0.349 
+OPTIONS /me 200 1.1 0.123 
+OPTIONS /me 200 1.1 0.394 
+OPTIONS /me 200 1.1 0.198 
+OPTIONS /me 200 1.1 0.229 
+OPTIONS /me 200 1.1 0.129 
+OPTIONS /me 200 1.1 0.195 
+OPTIONS /me 200 1.1 0.113 
+OPTIONS /me 200 1.1 0.203 
+OPTIONS /me 200 1.1 0.117 
+OPTIONS /me 200 1.1 0.113 
+OPTIONS /me 200 1.1 0.130 
+OPTIONS /me 200 1.1 0.117 
+OPTIONS /me 200 1.1 0.121 
+OPTIONS /me 200 1.1 0.133 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.651 
+OPTIONS /me 200 1.1 0.129 
+OPTIONS /me 200 1.1 0.120 
+OPTIONS /me 200 1.1 0.186 
+OPTIONS /me 200 1.1 0.121 
+OPTIONS /me 200 1.1 0.116 
+OPTIONS /me 200 1.1 0.127 
+OPTIONS /me 200 1.1 0.114 
+OPTIONS /me 200 1.1 0.109 
+OPTIONS /me 200 1.1 0.302 
+OPTIONS /me 200 1.1 0.185 
+OPTIONS /me 200 1.1 0.157 
+OPTIONS /me 200 1.1 0.426 
+OPTIONS /me 200 1.1 0.369 
+OPTIONS /me 200 1.1 0.220 
+OPTIONS /me 200 1.1 0.268 
+OPTIONS /me 200 1.1 0.247 
+OPTIONS /me 200 1.1 0.193 
+OPTIONS /me 200 1.1 0.423 
+OPTIONS /me 200 1.1 0.317 
+OPTIONS /me 200 1.1 0.495 
+OPTIONS /me 200 1.1 0.395 
+OPTIONS /me 200 1.1 0.423 
+OPTIONS /me 200 1.1 0.316 
+OPTIONS /me 200 1.1 0.644 
+OPTIONS /me 200 1.1 0.736 
+OPTIONS /me 200 1.1 0.187 
+OPTIONS /me 200 1.1 0.219 
+OPTIONS /me 200 1.1 0.225 
+OPTIONS /me 200 1.1 0.119 
+OPTIONS /me 200 1.1 0.172 
+OPTIONS /me 200 1.1 0.179 
+OPTIONS /me 200 1.1 0.176 
+OPTIONS /me 200 1.1 0.243 
+OPTIONS /me 200 1.1 0.177 
+OPTIONS /me 200 1.1 0.147 
+OPTIONS /me 200 1.1 0.136 
+OPTIONS /me 200 1.1 0.149 
+OPTIONS /me 200 1.1 0.149 
+OPTIONS /me 200 1.1 0.190 
+OPTIONS /me 200 1.1 0.166 
+OPTIONS /me 200 1.1 0.142 
+OPTIONS /me 200 1.1 0.132 
+OPTIONS /me 200 1.1 0.151 
+OPTIONS /me 200 1.1 0.107 
+OPTIONS /me 200 1.1 0.111 
+OPTIONS /me 200 1.1 0.113 
+OPTIONS /me 200 1.1 0.104 
+OPTIONS /me 200 1.1 0.131 
+OPTIONS /me 200 1.1 0.167 
+OPTIONS /me 200 1.1 0.116 
+OPTIONS /me 200 1.1 0.152 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.617 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.865 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.527 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.509 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.549 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.254 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.598 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.561 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.570 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.176 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.834 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.826 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.901 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.076 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.907 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.066 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.951 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.863 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.694 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.067 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.656 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.620 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.694 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.211 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.891 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.852 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.534 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.430 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.391 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.322 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.397 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.862 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.539 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.844 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.570 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.763 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.634 
+GET /me 200 1.1 1.014 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.511 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.991 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.988 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.928 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.649 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.252 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.915 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.994 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.550 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.157 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.452 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.899 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.567 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.029 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.819 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.935 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.042 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.857 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.773 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.515 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.830 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.927 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.620 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 1.563 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.798 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.881 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.934 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.640 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.576 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.659 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.456 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.585 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.459 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.563 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.572 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.728 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.531 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.924 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.403 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.545 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.364 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.481 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.356 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.677 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.885 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.640 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.611 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.400 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695107,
+  exp: 1650954307
+}
+GET /me 200 1.1 0.456 
+GET /auth/facebook 302 1.1 0.794 
+email sent successfully
+GET /auth/facebook/callback?code=AQB_ojZTkve71odb3W2s9IoafRclJr31-uND0X91TD2e34lEQlL90QUco5wNXOge3dkhpwleyhm-_r-AoR88rIN-tkuC76MVPp7OM4PA0rHc6qx14JrYBKsmYNPNmCEE2ohs168kCEy1mlZQmUfAlqllIexfgHPoU5Rr8qagi9aHRgfdfEbQqBc7TvltRG2mpGlhaZrU7gvD1X0dfq7IaHi3veSTgZLJRQ9JjMj3oGYDWdkf0mQGn7nC8E5aCKdOyHVOQQp42WcR9e8hpseDzfrz3i04fMuKNwm-P_yvBBmY_lXoPrjhItMK-Cgvr47nAZZ6vuyTH0ygpbjc2s1xggy20_kaX7Qr_INHFtwRWlDwM19Jc0j55ZdZDmdoN6tc72E 302 1.1 2357.309 
+OPTIONS /me 200 1.1 0.214 
+OPTIONS /me 200 1.1 0.168 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695120,
+  exp: 1650954320
+}
+GET /me 200 1.1 0.581 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695120,
+  exp: 1650954320
+}
+GET /me 200 1.1 0.508 
+GET /auth/google 302 1.1 0.284 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWgrEcx7VMVLafTe69Y4QXyrK8kLJ5TQP5sLXxfecLmOyn-pPTGHKMnKz0U9sKAahw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=1&prompt=consent 302 1.1 2418.223 
+OPTIONS /me 200 1.1 0.629 
+OPTIONS /me 200 1.1 0.160 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: true,
+  iat: 1650695205,
+  exp: 1650954405
+}
+OPTIONS /me 200 1.1 0.100 
+GET /me 200 1.1 0.503 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: true,
+  iat: 1650695205,
+  exp: 1650954405
+}
+GET /me 200 1.1 0.304 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: true,
+  iat: 1650695205,
+  exp: 1650954405
+}
+GET /me 200 1.1 0.435 
+GET /auth/facebook 302 1.1 0.292 
+email sent successfully
+GET /auth/facebook/callback?code=AQCBfyjZovlFEPDIEVkZDfVdXK-GeNMWcyahsYX_9Jt6wuFpGO-bn1aoPoupnWV_PSZdY66RbLs0YpLSlpNWPUrQ8sa9UePOqnuYEf3SUlbCI4ZyAYkhueLrWyPbJmegrJclisUNpio5Vo4jyWcnDtK5uK_cCP_7yxQgIW_T-t5bfRK4c3PIw4CWxKqTvj-Td2AebWj_POjXcWP98KB0VFsvO8dV1iK-a5sqLcMtSMwDxBLkjN4NsezULrJXaLLmNrrub463pCqYSl06RQdcUxlaqAj0tcE50Of9KyrYJLT5vwYBkDjbZeH2dYnBw-dmU2NGoO9hwEUYDu5uh6dlS3pqVYvpQCGSCsps3yS5DJ4htRJu10GasrwYoIL4M806Ajk 302 1.1 2496.917 
+OPTIONS /me 200 1.1 0.206 
+OPTIONS /me 200 1.1 0.261 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695227,
+  exp: 1650954427
+}
+GET /me 200 1.1 1.055 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650695227,
+  exp: 1650954427
+}
+GET /me 200 1.1 0.608 
+GET /auth/google 302 1.1 0.499 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWj0yLtMRf87dEWZRZwmSwqYah3FHTrrVhCTmVQRgO49zt_zsKC0Icjdt2mPRdzYhg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=1&prompt=consent 302 1.1 2061.661 
+OPTIONS /me 200 1.1 0.475 
+OPTIONS /me 200 1.1 0.175 
+OPTIONS /me 200 1.1 0.389 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: false,
+  iat: 1650695242,
+  exp: 1650954442
+}
+GET /me 200 1.1 1.319 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: false,
+  iat: 1650695242,
+  exp: 1650954442
+}
+GET /me 200 1.1 1.400 
+{
+  _id: '62639c2512ac8ce90bd54c00',
+  socialId: { google: '117031846238996705242' },
+  fullName: 'Mohamed Sayed',
+  email: 'mohamed.sayed.atiaa@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '',
+  country: '',
+  image: 'https://lh3.googleusercontent.com/a/AATXAJx3eXMGFyC8UHZcNX4DJUnJxHPLbKQViofV2YAH=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/117031846238996705242',
+      etag: '%EgkBBwgLEC43P0AaBAECBQc=',
+      genders: [Array],
+      birthdays: [Array]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:26:45.221Z',
+  firstRegistration: false,
+  iat: 1650695242,
+  exp: 1650954442
+}
+GET /me 200 1.1 1.736 
+OPTIONS /login 200 1.1 0.227 
+Result { formatter: [Function: formatter], errors: [] }
+POST /login 403 1.1 2.774 
+OPTIONS /password/reset 200 1.1 0.213 
+Result { formatter: [Function: formatter], errors: [] }
+email sent successfully
+POST /password/reset 201 1.1 1377.534 
+OPTIONS /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 200 1.1 0.214 
+POST /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 500 1.1 2.616 
+OPTIONS /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 200 1.1 0.234 
+POST /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 500 1.1 1.929 
+OPTIONS /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 200 1.1 0.206 
+POST /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 500 1.1 2.000 
+OPTIONS /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 200 1.1 0.224 
+POST /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 500 1.1 2.307 
+OPTIONS /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 200 1.1 0.173 
+POST /password/reset/62639c2512ac8ce90bd54c00/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyNjM5YzI1MTJhYzhjZTkwYmQ1NGMwMCIsInNvY2lhbElkIjp7Imdvb2dsZSI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9LCJmdWxsTmFtZSI6Ik1vaGFtZWQgU2F5ZWQiLCJlbWFpbCI6Im1vaGFtZWQuc2F5ZWQuYXRpYWFAZ21haWwuY29tIiwiYmlvIjoiQWRkIHlvdXIgQmlvIiwicGhvbmVfbnVtYmVyIjoiIiwiY291bnRyeSI6IiIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeDNlWE1HRnlDOFVIWmNOWDRESlVuSnhIUExiS1FWaW9mVjJZQUg9czk2LWMiLCJ2ZXJpZmllZCI6dHJ1ZSwidXNlckluZm8iOnsiZ29vZ2xlSW5mbyI6eyJyZXNvdXJjZU5hbWUiOiJwZW9wbGUvMTE3MDMxODQ2MjM4OTk2NzA1MjQyIiwiZXRhZyI6IiVFZ2tCQndnTEVDNDNQMEFhQkFFQ0JRYz0iLCJnZW5kZXJzIjpbeyJtZXRhZGF0YSI6eyJwcmltYXJ5Ijp0cnVlLCJzb3VyY2UiOnsidHlwZSI6IlBST0ZJTEUiLCJpZCI6IjExNzAzMTg0NjIzODk5NjcwNTI0MiJ9fSwidmFsdWUiOiJtYWxlIiwiZm9ybWF0dGVkVmFsdWUiOiJNYWxlIn1dLCJiaXJ0aGRheXMiOlt7Im1ldGFkYXRhIjp7InByaW1hcnkiOnRydWUsInNvdXJjZSI6eyJ0eXBlIjoiQUNDT1VOVCIsImlkIjoiMTE3MDMxODQ2MjM4OTk2NzA1MjQyIn19LCJkYXRlIjp7InllYXIiOjE5OTEsIm1vbnRoIjo5LCJkYXkiOjI5fX1dfX0sIndvcmtzcGFjZXMiOltdLCJkYXRlX2NyZWF0ZWQiOiIyMDIyLTA0LTIzVDA2OjI2OjQ1LjIyMVoifSwiaWQiOiI2MjYzOWMyNTEyYWM4Y2U5MGJkNTRjMDAiLCJpYXQiOjE2NTA2OTUzMDAsImV4cCI6MTY1MDY5ODkwMH0.6d5RXI0wGATX5i_hBqsNYc3JvjwXpMJFK5_LQFKmLAk 500 1.1 2.013 
+GET /auth/google 302 1.1 0.400 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWjU-jNFLGbuAblrcH_ZJUipl1yhQRdL5XycjLzC0ZrsRDqVy48WWe99ag7B5yMD5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=0&prompt=consent 302 1.1 2648.971 
+GET /auth/google 302 1.1 2.052 
+email sent successfully
+GET /auth/google/callback?code=4%2F0AX4XfWjchSpfgoJPWBdPsRNwXE8i1jfpWZ_ZyF2d_FSM9Q9AJSgBs6nW0b3nKT7ZSryj5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.phonenumbers.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.addresses.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fprofile.agerange.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.gender.read+openid&authuser=0&prompt=consent 302 1.1 2277.695 
+OPTIONS /me 200 1.1 0.518 
+OPTIONS /me 200 1.1 0.142 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650699592,
+  exp: 1650958792
+}
+GET /me 200 1.1 0.877 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650699592,
+  exp: 1650958792
+}
+GET /me 200 1.1 0.938 
+OPTIONS /me 200 1.1 0.168 
+{
+  _id: '62639adb12ac8ce90bd54bf5',
+  socialId: { facebook: '5611260212232002', google: '111547277229046261734' },
+  fullName: 'Mohamed Sayed',
+  email: 'moha.sayed6064@gmail.com',
+  bio: 'Add your Bio',
+  phone_number: '+201005833382',
+  country: 'Egypt',
+  image: 'https://lh3.googleusercontent.com/a-/AOh14GhWJCJvFVDEbtrCZB-rlTZDUQBQLCcefO_eu7IiTg=s96-c',
+  verified: true,
+  userInfo: {
+    googleInfo: {
+      resourceName: 'people/111547277229046261734',
+      etag: '%EgkBBwgLEC43P0AaBAECBQciDERRd01zcVIyOFQwPQ==',
+      genders: [Array],
+      birthdays: [Array],
+      addresses: [Array],
+      phoneNumbers: [Array]
+    },
+    facebookInfo: {
+      id: '5611260212232002',
+      email: 'moha.sayed6064@gmail.com',
+      link: 'https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEU4NG5TVVFYRi03N2VqOUlBdlpHNnNsTDM3S292UVhEUVA3Y181SFFXdHhLSHFna2VJclZAwellwZAzBKUGUtZAWI3SGJJQTBrMy13UlpYN0IxOGR0eEdlcFZAVRS02U215U2czNmdMT3o4OE1TNldz/',
+      name: 'Mohamed Sayed',
+      last_name: 'Sayed',
+      first_name: 'Mohamed',
+      gender: 'male',
+      picture: [Object],
+      location: [Object],
+      birthday: '09/29/1991',
+      age_range: [Object],
+      hometown: [Object]
+    }
+  },
+  workspaces: [],
+  date_created: '2022-04-23T06:21:15.573Z',
+  firstRegistration: false,
+  iat: 1650699592,
+  exp: 1650958792
+}
+GET /me 200 1.1 0.468 
