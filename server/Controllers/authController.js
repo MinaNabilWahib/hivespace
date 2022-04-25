@@ -119,8 +119,10 @@ exports.passVerify = async (req, res, next) => {
     const key = process.env.reset_key
     const { password, passwordConfirm } = req.body
     const user = await userVerify(req, key)
-    if (await user.comparePassword(password))
-      generateError(403, 'you already entered the old password ,please enter the new one or return to login page')
+    if (user?.password_hash) {
+      if (await user.comparePassword(password))
+        generateError(403, 'you already entered the old password ,please enter the new one or return to login page')
+    }
     user.changePassword = true
     Object.assign(user, password && { password }, password && { passwordConfirm })
     await user.save()
@@ -162,15 +164,15 @@ exports.sendWelcomeMail = async (req, res, next) => {
     const user = req.user;
     const token = req.token;
     let html = '';
-    if (user.firstRegistration) {
-      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
+    // if (user.firstRegistration) {
+    html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
               <h4>Welcome</h4>
               <p>Thanks for signing up with us to use HiveSpace</p>`
-    } else {
-      html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
-              <h4>Welcome Back </h4>
-              <p>Make yourself at home</p>`
-    }
+    // } else {
+    //   html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
+    //           <h4>Welcome Back </h4>
+    //           <p>Make yourself at home</p>`
+    // }
     await sendEmail(user.email, 'Welcome email', html);
 
     res.status(201).json({ message: 'login successful', user: user.userData(), token })
