@@ -33,15 +33,18 @@ exports.login_post = async (req, res, next) => {
     const { user, password } = req.body
 
     if (!user.password_hash) {
-      generateError(403, 'you registered by social media , please, login with google or facebook account or reset your password')
+      generateError(
+        403,
+        'you registered by social media , please, login with google or facebook account or reset your password',
+      )
     }
     if (!(await user.comparePassword(password))) generateError(403, 'Invalid Password')
     if (!user.verified) {
       generateError(403, 'Your account not verified , please verify it')
     }
-    req.token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' });
-    req.user = user;
-    next();
+    req.token = jwt.sign(user.userData(), process.env.secret_key, { expiresIn: '3d' })
+    req.user = user
+    next()
     // res.status(201).json({ status: 'login successful', data: user.userData(), token })
   } catch (error) {
     next(error)
@@ -50,12 +53,12 @@ exports.login_post = async (req, res, next) => {
 
 exports.me_get = async (req, res, next) => {
   try {
-    const user = req.user;
-    res.status(200).json({ user: user });
+    const user = req.user
+    res.status(200).json({ user: user })
   } catch (error) {
-    next(error);
+    next(error)
   }
-}//get me refer to JWT
+} //get me refer to JWT
 
 exports.sendVerificationEmail = async (req, res, next) => {
   try {
@@ -75,7 +78,7 @@ exports.sendVerificationEmail = async (req, res, next) => {
       <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Verify Your Email</a>
     </p>`
     await sendEmail(user.email, 'Verify Email', html)
-    res.status(201).json({ message: 'Registration successful ,An Email sent to your account please verify', })
+    res.status(201).json({ message: 'Registration successful ,An Email sent to your account please verify' })
   } catch (error) {
     next(error)
   }
@@ -108,7 +111,7 @@ exports.sendResetPassword = async (req, res, next) => {
         <a style="background-color:blue; color:white;padding:10px 20px;text-decoration:none; font-weight:bold;border-radius:7px" href="${link}">Reset Your Password</a>
       </p>`
     await sendEmail(user.email, 'Reset Password', html)
-    res.status(201).json({ message: 'password rest successful ,An Email sent to your account please verify', })
+    res.status(201).json({ message: 'password rest successful ,An Email sent to your account please verify' })
   } catch (error) {
     next(error)
   }
@@ -129,7 +132,7 @@ exports.passVerify = async (req, res, next) => {
     let html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
               <h4>Welcome</h4>
               <p>Your password was changed successfully</p>`
-    await sendEmail(user.email, 'Reset Password', html);
+    await sendEmail(user.email, 'Reset Password', html)
 
     res.status(201).json({ message: 'password changed successfully' })
   } catch (error) {
@@ -151,9 +154,9 @@ const userVerify = async (req, key) => {
 
 exports.generateToken = async (req, res, next) => {
   try {
-    const user = req.user;
-    req.token = jwt.sign(user, process.env.secret_key, { expiresIn: '3d' });
-    next();
+    const user = req.user
+    req.token = jwt.sign(user, process.env.secret_key, { expiresIn: '3d' })
+    next()
   } catch (error) {
     next(error)
   }
@@ -161,9 +164,9 @@ exports.generateToken = async (req, res, next) => {
 
 exports.sendWelcomeMail = async (req, res, next) => {
   try {
-    const user = req.user;
-    const token = req.token;
-    let html = '';
+    const user = req.user
+    const token = req.token
+    let html = ''
     // if (user.firstRegistration) {
     html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
               <h4>Welcome</h4>
@@ -173,7 +176,7 @@ exports.sendWelcomeMail = async (req, res, next) => {
     //           <h4>Welcome Back </h4>
     //           <p>Make yourself at home</p>`
     // }
-    await sendEmail(user.email, 'Welcome email', html);
+    await sendEmail(user.email, 'Welcome email', html)
 
     res.status(201).json({ message: 'login successful', user: user.userData(), token })
   } catch (error) {
@@ -183,9 +186,9 @@ exports.sendWelcomeMail = async (req, res, next) => {
 
 exports.sendWelcomeMailSocial = async (req, res, next) => {
   try {
-    const user = req.user;
-    const token = req.token;
-    let html = '';
+    const user = req.user
+    const token = req.token
+    let html = ''
     if (user.firstRegistration) {
       html = `<h3 style="color:blue;">Hello, ${user.fullName}</h3>
               <h4>Welcome</h4>
@@ -195,8 +198,8 @@ exports.sendWelcomeMailSocial = async (req, res, next) => {
               <h4>Welcome Back </h4>
               <p>Make yourself at home</p>`
     }
-    await sendEmail(user.email, 'Welcome email', html);
-    res.status(301).redirect("http://localhost:3000/auth/socialVerify/" + token)
+    await sendEmail(user.email, 'Welcome email', html)
+    res.status(301).redirect('http://localhost:3000/auth/socialVerify/' + token)
   } catch (error) {
     next(error)
   }

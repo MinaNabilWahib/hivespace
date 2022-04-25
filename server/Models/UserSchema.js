@@ -5,7 +5,7 @@ const { validateCountryPhone } = require('../Service/userDataValidation')
 const userSchema = new mongoose.Schema({
   socialId: {
     facebook: String,
-    google: String
+    google: String,
   },
   first_name: {
     type: String,
@@ -60,7 +60,7 @@ const userSchema = new mongoose.Schema({
   },
   userInfo: {
     googleInfo: Object,
-    facebookInfo: Object
+    facebookInfo: Object,
   },
   date_created: {
     type: Date,
@@ -128,8 +128,7 @@ const handlePassErrors = (password, passwordConfirm) => {
 // pre validate check country, phone number and valid password
 userSchema.pre('validate', async function (next) {
   try {
-    if (this.isNew)
-      validateCountryPhone(this.country, this.phone_number)
+    if (this.isNew) validateCountryPhone(this.country, this.phone_number)
     if (this._changePassword || this.isNew) {
       handlePassErrors(this._password, this._passwordConfirm)
       let salt = await bcrypt.genSalt(10)
@@ -139,7 +138,6 @@ userSchema.pre('validate', async function (next) {
     next(error)
   }
 })
-
 
 //compare password
 userSchema.methods.comparePassword = async function (password) {

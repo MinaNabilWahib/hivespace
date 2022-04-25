@@ -29,6 +29,6 @@ exports.validateCountryPhone = (country, phoneNumber) => {
 //       return true
 //     }),
 // ]
- //email validation
+//email validation
 
 //  req.user = user.userData()

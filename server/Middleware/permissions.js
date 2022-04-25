@@ -6,7 +6,7 @@ exports.validateToken = (req, res, next) => {
   try {
     if (!req.headers.authorization) generateError(401, 'Invalid Token')
     const user = jwt.verify(req.headers.authorization.split(' ')[1], process.env.secret_key)
-    console.log(user);
+    console.log(user)
     if (!user) generateError(401, 'token expired')
     req.user = user
     next()

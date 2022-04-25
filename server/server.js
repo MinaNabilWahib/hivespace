@@ -68,7 +68,7 @@ const io = socketio(server, {
   cors: {},
   origin: '*',
 })
-socketioConfig(io);
+socketioConfig(io)
 
 //put routes
 app.use(authRouter)
